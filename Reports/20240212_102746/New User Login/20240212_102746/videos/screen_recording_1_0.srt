@@ -1,0 +1,20 @@
+1
+00:00:00,266 --> 00:00:02,251
+1. openBrowser("")
+
+2
+00:00:02,256 --> 00:00:05,657
+5. navigateToUrl(url)
+
+3
+00:00:05,658 --> 00:00:12,264
+9. click(findTestObject("Object Repository/Record/Register/Page_Advantage Shopping/svg_CHECKOUT  (0.00)_menuUser"))
+
+4
+00:00:12,265 --> 00:00:12,892
+13. click(findTestObject("Object Repository/Record/Register/Page_Advantage Shopping/a_CREATE NEW ACCOUNT"))
+
+5
+00:00:12,893 --> 00:00:47,635
+17. setText(findTestObject("Object Repository/Record/Register/Page_Advantage Shopping/input__usernameRegisterPage"), username)
+
