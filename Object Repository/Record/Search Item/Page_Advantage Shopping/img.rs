@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>img</name>
+   <tag></tag>
+   <elementGuidId>c88ffb13-e20d-4b19-9095-cf58e6881579</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='search']/div/div/img</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>div.autoCompleteCover > div > img</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>img</value>
+      <webElementGuid>3e7fd5ed-d84c-4a5f-aeb1-87567c3f495a</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>src</name>
+      <type>Main</type>
+      <value>../../css/images/closeDark.png</value>
+      <webElementGuid>ecdcae66-67e6-4465-81a7-ee8e41835958</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;search&quot;)/div[@class=&quot;autoCompleteCover&quot;]/div[1]/img[1]</value>
+      <webElementGuid>739f160d-6d61-495d-ad08-8f7133c201de</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='search']/div/div/img</value>
+      <webElementGuid>60dbfc0c-d257-49b3-a7fe-aea245730f25</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div/div/div/div/img</value>
+      <webElementGuid>b545facb-b072-4fb4-897d-c3f305aa8085</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//img[@src = '../../css/images/closeDark.png']</value>
+      <webElementGuid>eaf9c607-1b0a-45c8-ba5d-ad98d1c37f2d</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

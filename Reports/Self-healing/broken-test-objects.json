@@ -19,6 +19,16 @@
       "proposedLocatorMethod": "CSS",
       "recoveryMethod": "CSS",
       "pathToScreenshot": "Reports/Self-healing/Object Repository/Record/Search Item/Page_Advantage Shopping/path_CSS.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Spy/Homepage/Page_Advantage Shopping/searchIcon",
+      "brokenLocator": "(.//*[normalize-space(text()) and normalize-space(.)\u003d\u0027Sign out\u0027])[2]/following::*[name()\u003d\u0027svg\u0027][1]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//*[@id \u003d \u0027menuSearch\u0027]",
+      "proposedLocatorMethod": "BASIC",
+      "recoveryMethod": "BASIC",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/Spy/Homepage/Page_Advantage Shopping/searchIcon_BASIC.png"
     }
   ]
 }
