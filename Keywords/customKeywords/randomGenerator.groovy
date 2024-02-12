@@ -55,7 +55,8 @@ class randomGenerator {
 		Random random = new Random()
 		TestData users = findTestData('Data Files/Users')
 		int usersDataCount = users.getRowNumbers()
-		int randomNumber = random.nextInt(1, usersDataCount)
+		int minimum = 1
+		int randomNumber = random.nextInt(usersDataCount) + minimum
 		return randomNumber
 	}
 
