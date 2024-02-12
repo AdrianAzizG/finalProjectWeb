@@ -44,8 +44,8 @@ WebUI.setText(findTestObject('Object Repository/Record/Register/Page_Advantage S
 WebUI.setText(findTestObject('Object Repository/Record/Register/Page_Advantage Shopping/input_- Use maximum 30 character_phone_numb_7c938a'), 
     phoneNumber)
 
-WebUI.selectOptionByValue(findTestObject('Object Repository/Record/Register/Page_Advantage Shopping/select_AfganistanAlbaniaAlgeriaAmerican Sam_3cef8a'), 
-    'object:250', true)
+WebUI.selectOptionByLabel(findTestObject('Object Repository/Record/Register/Page_Advantage Shopping/select_AfganistanAlbaniaAlgeriaAmerican Sam_3cef8a'), 
+    country, true)
 
 WebUI.setText(findTestObject('Object Repository/Record/Register/Page_Advantage Shopping/input_Country_cityRegisterPage'), 
     city)

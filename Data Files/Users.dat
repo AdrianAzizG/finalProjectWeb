@@ -9,9 +9,9 @@
    <dataFileGUID>a75506b4-ee17-4221-ab2e-0a04c44c0edf</dataFileGUID>
    <dataSourceUrl></dataSourceUrl>
    <driver>InternalData</driver>
-   <data>khalim P22%2FmDurbpKSPtl3l0tASQ%3D%3D khalim%40mail.com Kurnia Halim 081110101919 Jalan+Raya+Cibubur Jawa+Barat Bogor 10982</data>
-   <data>intany P22%2FmDurbpKSPtl3l0tASQ%3D%3D intany%40mail.com Intan Yolanda 089910153322 Jalan+Kemang+Raya+12 DKI+Jakarta Jaksel 12345</data>
-   <data>emasgold P22%2FmDurbpKSPtl3l0tASQ%3D%3D emasgold%40mail.com Emas Permadi 081234567890 Jalan+Dago+Barat Jawa+Barat Bandung 10239</data>
+   <data>khalim P22%2FmDurbpKSPtl3l0tASQ%3D%3D khalim%40mail.com Kurnia Halim 081110101919 Jalan+Raya+Cibubur Jawa+Barat Bogor 10982 Indonesia</data>
+   <data>intany P22%2FmDurbpKSPtl3l0tASQ%3D%3D intany%40mail.com Intan Yolanda 089910153322 Melbourne+Ave NSW Melbourne 12345 Australia</data>
+   <data>emasgold P22%2FmDurbpKSPtl3l0tASQ%3D%3D emasgold%40mail.com Emas Permadi 081234567890 Orchard+Road Singapore+City Singapore 10239 Singapore</data>
    <internalDataColumns>
       <columnIndex>0</columnIndex>
       <name>username</name>
@@ -60,6 +60,11 @@
    <internalDataColumns>
       <columnIndex>9</columnIndex>
       <name>postCode</name>
+      <size>3</size>
+   </internalDataColumns>
+   <internalDataColumns>
+      <columnIndex>10</columnIndex>
+      <name>country</name>
       <size>3</size>
    </internalDataColumns>
    <isInternalPath>false</isInternalPath>
