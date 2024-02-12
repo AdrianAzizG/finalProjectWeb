@@ -23,6 +23,8 @@ WebUI.navigateToUrl(GlobalVariable.url)
 
 WebUI.click(findTestObject('Object Repository/Record/Register/Page_Advantage Shopping/svg_CHECKOUT  (0.00)_menuUser'))
 
+WebUI.delay(3)
+
 WebUI.click(findTestObject('Object Repository/Record/Register/Page_Advantage Shopping/a_CREATE NEW ACCOUNT'))
 
 WebUI.setText(findTestObject('Object Repository/Record/Register/Page_Advantage Shopping/input__usernameRegisterPage'), username)
@@ -64,6 +66,8 @@ WebUI.click(findTestObject('Object Repository/Record/Register/Page_Advantage Sho
 WebUI.click(findTestObject('Object Repository/Record/Register/Page_Advantage Shopping/button_REGISTER'))
 
 WebUI.verifyElementText(findTestObject('Object Repository/Record/Register/Page_Advantage Shopping/span_testname'), username)
+
+WebUI.delay(3)
 
 WebUI.closeBrowser()
 
