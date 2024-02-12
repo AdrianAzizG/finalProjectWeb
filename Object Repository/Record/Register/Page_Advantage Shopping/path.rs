@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>path</name>
+   <tag></tag>
+   <elementGuidId>d40e27ee-d9c2-443f-b213-09214d2a03db</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>#Layer_1 > path</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value></value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>path</value>
+      <webElementGuid>a3aa619d-06a4-467e-9e61-317a9795602f</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>fill</name>
+      <type>Main</type>
+      <value>#54B3AD</value>
+      <webElementGuid>f62e8fe1-0193-4254-a5a7-7073061c45fa</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>d</name>
+      <type>Main</type>
+      <value>M21,33h-6c-1.1,0-2-1.1-2-2.2V7h2.9c0.7,0,1.3,0.4,1.6,1.1l12.9,35.2c0.4,1,1.6,1.6,2.6,1.6h5L22,1.8
+                        C21.6,0.7,21.1,0,20,0H6v34.1c0,3.3,1.4,5.9,5,5.9h14l-1.3-5.6C23.4,33.4,22,33,21,33z</value>
+      <webElementGuid>1339b35e-b7d7-4a66-a011-002ecc5603a7</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;Layer_1&quot;)/path[1]</value>
+      <webElementGuid>940370fd-8158-485d-93e0-a7773a36638a</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>
