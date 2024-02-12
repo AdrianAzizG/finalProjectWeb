@@ -1,0 +1,114 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Register,Chrome 121.0.0.0,,,12-02-2024 13:40:52,12-02-2024 13:46:06,5m - 13.450s,PASSED
+,,,,,,,
+Test Cases/Register 01 - Sukses,Chrome 121.0.0.0,,,12-02-2024 13:40:53,12-02-2024 13:42:15,1m - 22.830s,PASSED
+"openBrowser("""")",Chrome 121.0.0.0,,,12-02-2024 13:40:53,12-02-2024 13:40:55,2.117s,PASSED
+navigateToUrl(url),Chrome 121.0.0.0,,,12-02-2024 13:40:55,12-02-2024 13:40:59,3.592s,PASSED
+"click(findTestObject(""Object Repository/Record/Register/Page_Advantage Shopping/svg_CHECKOUT  (0.00)_menuUser""))",Chrome 121.0.0.0,,,12-02-2024 13:40:59,12-02-2024 13:41:04,4.736s,PASSED
+delay(3),Chrome 121.0.0.0,,,12-02-2024 13:41:04,12-02-2024 13:41:07,3.508s,PASSED
+"click(findTestObject(""Object Repository/Record/Register/Page_Advantage Shopping/a_CREATE NEW ACCOUNT""))",Chrome 121.0.0.0,,,12-02-2024 13:41:07,12-02-2024 13:41:08,1.409s,PASSED
+"setText(findTestObject(""Object Repository/Record/Register/Page_Advantage Shopping/input__usernameRegisterPage""), username)",Chrome 121.0.0.0,,,12-02-2024 13:41:08,12-02-2024 13:41:11,2.922s,PASSED
+"setText(findTestObject(""Object Repository/Record/Register/Page_Advantage Shopping/input__emailRegisterPage""), email)",Chrome 121.0.0.0,,,12-02-2024 13:41:11,12-02-2024 13:41:13,1.296s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/Record/Register/Page_Advantage Shopping/input__passwordRegisterPage""), password)",Chrome 121.0.0.0,,,12-02-2024 13:41:13,12-02-2024 13:41:13,0.661s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/Record/Register/Page_Advantage Shopping/input__confirm_passwordRegisterPage""), password)",Chrome 121.0.0.0,,,12-02-2024 13:41:13,12-02-2024 13:41:14,1.061s,PASSED
+"setText(findTestObject(""Object Repository/Record/Register/Page_Advantage Shopping/input_PERSONAL DETAILS_first_nameRegisterPage""), firstName)",Chrome 121.0.0.0,,,12-02-2024 13:41:14,12-02-2024 13:41:16,1.313s,PASSED
+"setText(findTestObject(""Object Repository/Record/Register/Page_Advantage Shopping/input_- Use maximum 30 character_last_nameR_6ef033""), lastName)",Chrome 121.0.0.0,,,12-02-2024 13:41:16,12-02-2024 13:41:17,1.683s,PASSED
+"setText(findTestObject(""Object Repository/Record/Register/Page_Advantage Shopping/input_- Use maximum 30 character_phone_numb_7c938a""), phoneNumber)",Chrome 121.0.0.0,,,12-02-2024 13:41:17,12-02-2024 13:41:19,1.889s,PASSED
+"selectOptionByLabel(findTestObject(""Object Repository/Record/Register/Page_Advantage Shopping/select_AfganistanAlbaniaAlgeriaAmerican Sam_3cef8a""), country, true)",Chrome 121.0.0.0,,,12-02-2024 13:41:19,12-02-2024 13:41:31,11.270s,PASSED
+"setText(findTestObject(""Object Repository/Record/Register/Page_Advantage Shopping/input_Country_cityRegisterPage""), city)",Chrome 121.0.0.0,,,12-02-2024 13:41:31,12-02-2024 13:41:32,1.155s,PASSED
+"setText(findTestObject(""Object Repository/Record/Register/Page_Advantage Shopping/input_- Use maximum 25 character_addressReg_9e23b3""), address)",Chrome 121.0.0.0,,,12-02-2024 13:41:32,12-02-2024 13:41:33,1.500s,PASSED
+"setText(findTestObject(""Object Repository/Record/Register/Page_Advantage Shopping/input_- Use maximum 50 character_state__pro_272a54""), region)",Chrome 121.0.0.0,,,12-02-2024 13:41:33,12-02-2024 13:41:35,1.371s,PASSED
+"setText(findTestObject(""Object Repository/Record/Register/Page_Advantage Shopping/input_- Use maximum 10 character_postal_cod_639c2f""), postCode)",Chrome 121.0.0.0,,,12-02-2024 13:41:35,12-02-2024 13:41:36,1.647s,PASSED
+"click(findTestObject(""Object Repository/Record/Register/Page_Advantage Shopping/input_Receive exclusive offers and promotio_5c7450""))",Chrome 121.0.0.0,,,12-02-2024 13:41:36,12-02-2024 13:41:37,0.777s,PASSED
+"click(findTestObject(""Object Repository/Record/Register/Page_Advantage Shopping/button_REGISTER""))",Chrome 121.0.0.0,,,12-02-2024 13:41:37,12-02-2024 13:41:38,0.601s,PASSED
+"verifyElementText(findTestObject(""Object Repository/Record/Register/Page_Advantage Shopping/span_testname""), username)",Chrome 121.0.0.0,,,12-02-2024 13:41:38,12-02-2024 13:42:10,31.851s,PASSED
+delay(3),Chrome 121.0.0.0,,,12-02-2024 13:42:10,12-02-2024 13:42:13,3.071s,PASSED
+closeBrowser(),Chrome 121.0.0.0,,,12-02-2024 13:42:13,12-02-2024 13:42:13,0.605s,PASSED
+Video,Chrome 121.0.0.0,,,12-02-2024 13:42:15,12-02-2024 13:42:15,0.004s,PASSED
+,,,,,,,
+Test Cases/Register 01 - Sukses,Chrome 121.0.0.0,,,12-02-2024 13:42:16,12-02-2024 13:43:45,1m - 29.560s,PASSED
+"openBrowser("""")",Chrome 121.0.0.0,,,12-02-2024 13:42:16,12-02-2024 13:42:17,1.247s,PASSED
+navigateToUrl(url),Chrome 121.0.0.0,,,12-02-2024 13:42:17,12-02-2024 13:42:20,3.198s,PASSED
+"click(findTestObject(""Object Repository/Record/Register/Page_Advantage Shopping/svg_CHECKOUT  (0.00)_menuUser""))",Chrome 121.0.0.0,,,12-02-2024 13:42:20,12-02-2024 13:42:27,7.242s,PASSED
+delay(3),Chrome 121.0.0.0,,,12-02-2024 13:42:27,12-02-2024 13:42:31,3.013s,PASSED
+"click(findTestObject(""Object Repository/Record/Register/Page_Advantage Shopping/a_CREATE NEW ACCOUNT""))",Chrome 121.0.0.0,,,12-02-2024 13:42:31,12-02-2024 13:42:31,0.779s,PASSED
+"setText(findTestObject(""Object Repository/Record/Register/Page_Advantage Shopping/input__usernameRegisterPage""), username)",Chrome 121.0.0.0,,,12-02-2024 13:42:31,12-02-2024 13:42:47,16.081s,PASSED
+"setText(findTestObject(""Object Repository/Record/Register/Page_Advantage Shopping/input__emailRegisterPage""), email)",Chrome 121.0.0.0,,,12-02-2024 13:42:47,12-02-2024 13:42:49,1.156s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/Record/Register/Page_Advantage Shopping/input__passwordRegisterPage""), password)",Chrome 121.0.0.0,,,12-02-2024 13:42:49,12-02-2024 13:42:49,0.901s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/Record/Register/Page_Advantage Shopping/input__confirm_passwordRegisterPage""), password)",Chrome 121.0.0.0,,,12-02-2024 13:42:49,12-02-2024 13:42:51,1.288s,PASSED
+"setText(findTestObject(""Object Repository/Record/Register/Page_Advantage Shopping/input_PERSONAL DETAILS_first_nameRegisterPage""), firstName)",Chrome 121.0.0.0,,,12-02-2024 13:42:51,12-02-2024 13:42:52,1.262s,PASSED
+"setText(findTestObject(""Object Repository/Record/Register/Page_Advantage Shopping/input_- Use maximum 30 character_last_nameR_6ef033""), lastName)",Chrome 121.0.0.0,,,12-02-2024 13:42:52,12-02-2024 13:42:54,1.534s,PASSED
+"setText(findTestObject(""Object Repository/Record/Register/Page_Advantage Shopping/input_- Use maximum 30 character_phone_numb_7c938a""), phoneNumber)",Chrome 121.0.0.0,,,12-02-2024 13:42:54,12-02-2024 13:42:55,1.548s,PASSED
+"selectOptionByLabel(findTestObject(""Object Repository/Record/Register/Page_Advantage Shopping/select_AfganistanAlbaniaAlgeriaAmerican Sam_3cef8a""), country, true)",Chrome 121.0.0.0,,,12-02-2024 13:42:55,12-02-2024 13:43:00,4.931s,PASSED
+"setText(findTestObject(""Object Repository/Record/Register/Page_Advantage Shopping/input_Country_cityRegisterPage""), city)",Chrome 121.0.0.0,,,12-02-2024 13:43:00,12-02-2024 13:43:01,0.899s,PASSED
+"setText(findTestObject(""Object Repository/Record/Register/Page_Advantage Shopping/input_- Use maximum 25 character_addressReg_9e23b3""), address)",Chrome 121.0.0.0,,,12-02-2024 13:43:01,12-02-2024 13:43:03,1.926s,PASSED
+"setText(findTestObject(""Object Repository/Record/Register/Page_Advantage Shopping/input_- Use maximum 50 character_state__pro_272a54""), region)",Chrome 121.0.0.0,,,12-02-2024 13:43:03,12-02-2024 13:43:04,1.148s,PASSED
+"setText(findTestObject(""Object Repository/Record/Register/Page_Advantage Shopping/input_- Use maximum 10 character_postal_cod_639c2f""), postCode)",Chrome 121.0.0.0,,,12-02-2024 13:43:04,12-02-2024 13:43:05,1.503s,PASSED
+"click(findTestObject(""Object Repository/Record/Register/Page_Advantage Shopping/input_Receive exclusive offers and promotio_5c7450""))",Chrome 121.0.0.0,,,12-02-2024 13:43:05,12-02-2024 13:43:07,1.387s,PASSED
+"click(findTestObject(""Object Repository/Record/Register/Page_Advantage Shopping/button_REGISTER""))",Chrome 121.0.0.0,,,12-02-2024 13:43:07,12-02-2024 13:43:07,0.577s,PASSED
+"verifyElementText(findTestObject(""Object Repository/Record/Register/Page_Advantage Shopping/span_testname""), username)",Chrome 121.0.0.0,,,12-02-2024 13:43:07,12-02-2024 13:43:39,32.004s,PASSED
+delay(3),Chrome 121.0.0.0,,,12-02-2024 13:43:39,12-02-2024 13:43:42,3.055s,PASSED
+closeBrowser(),Chrome 121.0.0.0,,,12-02-2024 13:43:42,12-02-2024 13:43:43,0.689s,PASSED
+Video,Chrome 121.0.0.0,,,12-02-2024 13:43:45,12-02-2024 13:43:45,0.002s,PASSED
+,,,,,,,
+Test Cases/Register 01 - Sukses,Chrome 121.0.0.0,,,12-02-2024 13:43:46,12-02-2024 13:45:08,1m - 21.934s,PASSED
+"openBrowser("""")",Chrome 121.0.0.0,,,12-02-2024 13:43:46,12-02-2024 13:43:47,0.832s,PASSED
+navigateToUrl(url),Chrome 121.0.0.0,,,12-02-2024 13:43:47,12-02-2024 13:43:50,3.158s,PASSED
+"click(findTestObject(""Object Repository/Record/Register/Page_Advantage Shopping/svg_CHECKOUT  (0.00)_menuUser""))",Chrome 121.0.0.0,,,12-02-2024 13:43:50,12-02-2024 13:43:56,5.947s,PASSED
+delay(3),Chrome 121.0.0.0,,,12-02-2024 13:43:56,12-02-2024 13:43:59,3.015s,PASSED
+"click(findTestObject(""Object Repository/Record/Register/Page_Advantage Shopping/a_CREATE NEW ACCOUNT""))",Chrome 121.0.0.0,,,12-02-2024 13:43:59,12-02-2024 13:44:00,0.911s,PASSED
+"setText(findTestObject(""Object Repository/Record/Register/Page_Advantage Shopping/input__usernameRegisterPage""), username)",Chrome 121.0.0.0,,,12-02-2024 13:44:00,12-02-2024 13:44:03,3.018s,PASSED
+"setText(findTestObject(""Object Repository/Record/Register/Page_Advantage Shopping/input__emailRegisterPage""), email)",Chrome 121.0.0.0,,,12-02-2024 13:44:03,12-02-2024 13:44:04,1.510s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/Record/Register/Page_Advantage Shopping/input__passwordRegisterPage""), password)",Chrome 121.0.0.0,,,12-02-2024 13:44:04,12-02-2024 13:44:05,0.767s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/Record/Register/Page_Advantage Shopping/input__confirm_passwordRegisterPage""), password)",Chrome 121.0.0.0,,,12-02-2024 13:44:05,12-02-2024 13:44:06,1.258s,PASSED
+"setText(findTestObject(""Object Repository/Record/Register/Page_Advantage Shopping/input_PERSONAL DETAILS_first_nameRegisterPage""), firstName)",Chrome 121.0.0.0,,,12-02-2024 13:44:06,12-02-2024 13:44:08,1.229s,PASSED
+"setText(findTestObject(""Object Repository/Record/Register/Page_Advantage Shopping/input_- Use maximum 30 character_last_nameR_6ef033""), lastName)",Chrome 121.0.0.0,,,12-02-2024 13:44:08,12-02-2024 13:44:09,1.252s,PASSED
+"setText(findTestObject(""Object Repository/Record/Register/Page_Advantage Shopping/input_- Use maximum 30 character_phone_numb_7c938a""), phoneNumber)",Chrome 121.0.0.0,,,12-02-2024 13:44:09,12-02-2024 13:44:11,1.778s,PASSED
+"selectOptionByLabel(findTestObject(""Object Repository/Record/Register/Page_Advantage Shopping/select_AfganistanAlbaniaAlgeriaAmerican Sam_3cef8a""), country, true)",Chrome 121.0.0.0,,,12-02-2024 13:44:11,12-02-2024 13:44:22,11.615s,PASSED
+"setText(findTestObject(""Object Repository/Record/Register/Page_Advantage Shopping/input_Country_cityRegisterPage""), city)",Chrome 121.0.0.0,,,12-02-2024 13:44:22,12-02-2024 13:44:23,0.991s,PASSED
+"setText(findTestObject(""Object Repository/Record/Register/Page_Advantage Shopping/input_- Use maximum 25 character_addressReg_9e23b3""), address)",Chrome 121.0.0.0,,,12-02-2024 13:44:23,12-02-2024 13:44:25,1.375s,PASSED
+"setText(findTestObject(""Object Repository/Record/Register/Page_Advantage Shopping/input_- Use maximum 50 character_state__pro_272a54""), region)",Chrome 121.0.0.0,,,12-02-2024 13:44:25,12-02-2024 13:44:26,1.670s,PASSED
+"setText(findTestObject(""Object Repository/Record/Register/Page_Advantage Shopping/input_- Use maximum 10 character_postal_cod_639c2f""), postCode)",Chrome 121.0.0.0,,,12-02-2024 13:44:26,12-02-2024 13:44:28,1.807s,PASSED
+"click(findTestObject(""Object Repository/Record/Register/Page_Advantage Shopping/input_Receive exclusive offers and promotio_5c7450""))",Chrome 121.0.0.0,,,12-02-2024 13:44:28,12-02-2024 13:44:29,1.262s,PASSED
+"click(findTestObject(""Object Repository/Record/Register/Page_Advantage Shopping/button_REGISTER""))",Chrome 121.0.0.0,,,12-02-2024 13:44:29,12-02-2024 13:44:30,0.672s,PASSED
+"verifyElementText(findTestObject(""Object Repository/Record/Register/Page_Advantage Shopping/span_testname""), username)",Chrome 121.0.0.0,,,12-02-2024 13:44:30,12-02-2024 13:45:02,31.645s,PASSED
+delay(3),Chrome 121.0.0.0,,,12-02-2024 13:45:02,12-02-2024 13:45:05,3.020s,PASSED
+closeBrowser(),Chrome 121.0.0.0,,,12-02-2024 13:45:05,12-02-2024 13:45:05,0.696s,PASSED
+Video,Chrome 121.0.0.0,,,12-02-2024 13:45:08,12-02-2024 13:45:08,0.004s,PASSED
+,,,,,,,
+Test Cases/Register 02 - Tidak Sesuai Kondisi,Chrome 121.0.0.0,,,12-02-2024 13:45:08,12-02-2024 13:45:35,27.333s,PASSED
+"openBrowser("""")",Chrome 121.0.0.0,,,12-02-2024 13:45:08,12-02-2024 13:45:09,1.086s,PASSED
+"navigateToUrl(""https://advantageonlineshopping.com/#/"")",Chrome 121.0.0.0,,,12-02-2024 13:45:09,12-02-2024 13:45:11,1.816s,PASSED
+"click(findTestObject(""Object Repository/Record/Register/Page_Advantage Shopping/svg_CHECKOUT  (0.00)_menuUser""))",Chrome 121.0.0.0,,,12-02-2024 13:45:11,12-02-2024 13:45:14,2.733s,PASSED
+delay(3),Chrome 121.0.0.0,,,12-02-2024 13:45:14,12-02-2024 13:45:17,3.018s,PASSED
+"click(findTestObject(""Object Repository/Record/Register/Page_Advantage Shopping/a_CREATE NEW ACCOUNT""))",Chrome 121.0.0.0,,,12-02-2024 13:45:17,12-02-2024 13:45:18,0.939s,PASSED
+"setText(findTestObject(""Object Repository/Record/Register/Page_Advantage Shopping/input__usernameRegisterPage""), ""test"")",Chrome 121.0.0.0,,,12-02-2024 13:45:18,12-02-2024 13:45:24,6.465s,PASSED
+"setText(findTestObject(""Object Repository/Record/Register/Page_Advantage Shopping/input__emailRegisterPage""), ""mail.com"")",Chrome 121.0.0.0,,,12-02-2024 13:45:24,12-02-2024 13:45:26,1.705s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/Record/Register/Page_Advantage Shopping/input__passwordRegisterPage""), ""NOZHw6sL/1I="")",Chrome 121.0.0.0,,,12-02-2024 13:45:26,12-02-2024 13:45:27,0.808s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/Record/Register/Page_Advantage Shopping/input__confirm_passwordRegisterPage""), ""NmLWqEVKCcs="")",Chrome 121.0.0.0,,,12-02-2024 13:45:27,12-02-2024 13:45:28,1.074s,PASSED
+"click(findTestObject(""Object Repository/Record/Register/Page_Advantage Shopping/div_ACCOUNT DETAILS                        _b895da""))",Chrome 121.0.0.0,,,12-02-2024 13:45:28,12-02-2024 13:45:29,1.201s,PASSED
+"click(findTestObject(""Object Repository/Record/Register/Page_Advantage Shopping/input_Receive exclusive offers and promotio_5c7450""))",Chrome 121.0.0.0,,,12-02-2024 13:45:29,12-02-2024 13:45:29,0.614s,PASSED
+"verifyTextPresent(""Use 5 character or longer"", false)",Chrome 121.0.0.0,,,12-02-2024 13:45:29,12-02-2024 13:45:30,0.746s,PASSED
+"verifyTextPresent(""Your email address isn't formatted correctly"", false)",Chrome 121.0.0.0,,,12-02-2024 13:45:30,12-02-2024 13:45:31,0.409s,PASSED
+"verifyTextPresent(""One upper letter required"", false)",Chrome 121.0.0.0,,,12-02-2024 13:45:31,12-02-2024 13:45:31,0.431s,PASSED
+"verifyTextPresent(""Passwords do not match"", false)",Chrome 121.0.0.0,,,12-02-2024 13:45:31,12-02-2024 13:45:32,0.473s,PASSED
+"verifyElementNotClickable(findTestObject(""Object Repository/Record/Register/Page_Advantage Shopping/button_REGISTER""))",Chrome 121.0.0.0,,,12-02-2024 13:45:32,12-02-2024 13:45:32,0.664s,PASSED
+closeBrowser(),Chrome 121.0.0.0,,,12-02-2024 13:45:32,12-02-2024 13:45:33,0.562s,PASSED
+Video,Chrome 121.0.0.0,,,12-02-2024 13:45:35,12-02-2024 13:45:35,0.001s,PASSED
+,,,,,,,
+Test Cases/Register 03 - Sudah Ada User,Chrome 121.0.0.0,,,12-02-2024 13:45:35,12-02-2024 13:46:06,30.703s,PASSED
+"openBrowser("""")",Chrome 121.0.0.0,,,12-02-2024 13:45:35,12-02-2024 13:45:36,0.794s,PASSED
+"navigateToUrl(""https://advantageonlineshopping.com/#/"")",Chrome 121.0.0.0,,,12-02-2024 13:45:36,12-02-2024 13:45:40,3.683s,PASSED
+"click(findTestObject(""Object Repository/Record/Register/Page_Advantage Shopping/svg_CHECKOUT  (0.00)_menuUser""))",Chrome 121.0.0.0,,,12-02-2024 13:45:40,12-02-2024 13:45:44,4.443s,PASSED
+delay(4),Chrome 121.0.0.0,,,12-02-2024 13:45:44,12-02-2024 13:45:48,4.019s,PASSED
+"click(findTestObject(""Object Repository/Record/Register/Page_Advantage Shopping/a_CREATE NEW ACCOUNT""))",Chrome 121.0.0.0,,,12-02-2024 13:45:48,12-02-2024 13:45:49,1.260s,PASSED
+"setText(findTestObject(""Object Repository/Record/Register/Page_Advantage Shopping/input__usernameRegisterPage""), username)",Chrome 121.0.0.0,,,12-02-2024 13:45:49,12-02-2024 13:45:52,2.605s,PASSED
+"setText(findTestObject(""Object Repository/Record/Register/Page_Advantage Shopping/input__emailRegisterPage""), email)",Chrome 121.0.0.0,,,12-02-2024 13:45:52,12-02-2024 13:45:54,1.894s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/Record/Register/Page_Advantage Shopping/input__passwordRegisterPage""), password)",Chrome 121.0.0.0,,,12-02-2024 13:45:54,12-02-2024 13:45:55,0.964s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/Record/Register/Page_Advantage Shopping/input__confirm_passwordRegisterPage""), password)",Chrome 121.0.0.0,,,12-02-2024 13:45:55,12-02-2024 13:45:56,1.535s,PASSED
+"click(findTestObject(""Spy/Register/Page_Advantage Shopping/tocCheckbox""))",Chrome 121.0.0.0,,,12-02-2024 13:45:56,12-02-2024 13:45:58,1.249s,PASSED
+"click(findTestObject(""Spy/Register/Page_Advantage Shopping/registerButton""))",Chrome 121.0.0.0,,,12-02-2024 13:45:58,12-02-2024 13:45:58,0.506s,PASSED
+delay(4),Chrome 121.0.0.0,,,12-02-2024 13:45:58,12-02-2024 13:46:02,4.021s,PASSED
+"verifyTextPresent(""User name already exists"", false)",Chrome 121.0.0.0,,,12-02-2024 13:46:02,12-02-2024 13:46:03,0.548s,PASSED
+closeBrowser(),Chrome 121.0.0.0,,,12-02-2024 13:46:03,12-02-2024 13:46:04,0.803s,PASSED
+Video,Chrome 121.0.0.0,,,12-02-2024 13:46:06,12-02-2024 13:46:06,0.002s,PASSED

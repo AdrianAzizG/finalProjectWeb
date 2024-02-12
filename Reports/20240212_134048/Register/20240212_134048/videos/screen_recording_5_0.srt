@@ -1,0 +1,56 @@
+1
+00:00:00,152 --> 00:00:00,946
+1. openBrowser("")
+
+2
+00:00:00,948 --> 00:00:04,630
+5. navigateToUrl("https://advantageonlineshopping.com/#/")
+
+3
+00:00:04,631 --> 00:00:09,073
+9. click(findTestObject("Object Repository/Record/Register/Page_Advantage Shopping/svg_CHECKOUT  (0.00)_menuUser"))
+
+4
+00:00:09,075 --> 00:00:13,091
+13. delay(4)
+
+5
+00:00:13,092 --> 00:00:14,354
+17. click(findTestObject("Object Repository/Record/Register/Page_Advantage Shopping/a_CREATE NEW ACCOUNT"))
+
+6
+00:00:14,355 --> 00:00:16,957
+21. setText(findTestObject("Object Repository/Record/Register/Page_Advantage Shopping/input__usernameRegisterPage"), username)
+
+7
+00:00:16,961 --> 00:00:18,855
+25. setText(findTestObject("Object Repository/Record/Register/Page_Advantage Shopping/input__emailRegisterPage"), email)
+
+8
+00:00:18,856 --> 00:00:19,816
+29. setEncryptedText(findTestObject("Object Repository/Record/Register/Page_Advantage Shopping/input__passwordRegisterPage"), password)
+
+9
+00:00:19,817 --> 00:00:21,354
+33. setEncryptedText(findTestObject("Object Repository/Record/Register/Page_Advantage Shopping/input__confirm_passwordRegisterPage"), password)
+
+10
+00:00:21,356 --> 00:00:22,602
+37. click(findTestObject("Spy/Register/Page_Advantage Shopping/tocCheckbox"))
+
+11
+00:00:22,603 --> 00:00:23,111
+41. click(findTestObject("Spy/Register/Page_Advantage Shopping/registerButton"))
+
+12
+00:00:23,113 --> 00:00:27,133
+45. delay(4)
+
+13
+00:00:27,135 --> 00:00:27,682
+49. verifyTextPresent("User name already exists", false)
+
+14
+00:00:27,684 --> 00:00:28,510
+53. closeBrowser()
+

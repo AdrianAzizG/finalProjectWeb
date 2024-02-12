@@ -6,12 +6,12 @@
    <elementGuidId>1a7f8351-c3bc-4bca-9179-c818d6cc3bc2</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>CSS</key>
-         <value>input[name=&quot;password&quot;]</value>
-      </entry>
-      <entry>
          <key>XPATH</key>
          <value>//input[@name='password']</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>input[name=&quot;password&quot;]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -22,7 +22,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>input</value>
-      <webElementGuid>a41b5034-b706-4706-b574-f7eb6928df93</webElementGuid>
+      <webElementGuid>0affaf58-4088-4733-8ec9-f5502c39cdb1</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -30,7 +30,7 @@
       <name>name</name>
       <type>Main</type>
       <value>password</value>
-      <webElementGuid>0ad1ca6f-5983-471a-82d0-d307cd4785d5</webElementGuid>
+      <webElementGuid>2008bbe9-3d88-4acc-88dd-4772aff605be</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -38,7 +38,7 @@
       <name>type</name>
       <type>Main</type>
       <value>password</value>
-      <webElementGuid>fec76d5d-4839-405c-b013-cdf13f29fc97</webElementGuid>
+      <webElementGuid>c6a48d70-3bd1-43bf-92e9-f2e816144a2e</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -46,7 +46,7 @@
       <name>data-ng-model</name>
       <type>Main</type>
       <value>secModel</value>
-      <webElementGuid>33ec2140-cfa4-4c72-a639-eb4f95a54d81</webElementGuid>
+      <webElementGuid>c0e09925-cc32-4f9e-89da-0fd9dd93027e</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -54,7 +54,7 @@
       <name>class</name>
       <type>Main</type>
       <value>ng-pristine ng-untouched ng-valid ng-scope in-focus ng-dirty-add ng-valid-parse-add ng-animate ng-pristine-remove</value>
-      <webElementGuid>cf46d562-41de-4d07-a206-7fcaa75099a4</webElementGuid>
+      <webElementGuid>ac61f14d-96f4-4f68-9278-46a27e0b4c29</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -62,7 +62,7 @@
       <name>data-ng-animate</name>
       <type>Main</type>
       <value>2</value>
-      <webElementGuid>941f1560-6e77-4f4a-9728-2ca4bd51d352</webElementGuid>
+      <webElementGuid>64f1a8ee-4cad-4fe3-8d66-2d5de9e915a6</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -70,7 +70,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>/html[1]/body[@class=&quot;ng-scope&quot;]/login-modal[1]/div[@class=&quot;PopUp&quot;]/div[1]/div[@class=&quot;login ng-scope&quot;]/sec-form[@class=&quot;ng-isolate-scope secForm&quot;]/sec-view[@class=&quot;ng-isolate-scope sec-view&quot;]/div[@class=&quot;inputContainer ng-scope&quot;]/input[@class=&quot;ng-pristine ng-untouched ng-valid ng-scope in-focus ng-dirty-add ng-valid-parse-add ng-animate ng-pristine-remove&quot;]</value>
-      <webElementGuid>5e94bf18-2c74-4687-a602-be40bf542549</webElementGuid>
+      <webElementGuid>58d251b3-cec2-4598-abfe-24e29b559eba</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -78,7 +78,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>//input[@name='password']</value>
-      <webElementGuid>6a16245a-3cb5-46dd-9a4d-840df41dab8c</webElementGuid>
+      <webElementGuid>05daf55a-d13b-44ce-b83e-c6ec26a5958a</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -86,7 +86,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//sec-view[2]/div/input</value>
-      <webElementGuid>ff385d76-7865-4662-b971-cb42792c503c</webElementGuid>
+      <webElementGuid>836312d0-6152-4e98-929e-007239bc2f12</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -94,6 +94,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//input[@name = 'password' and @type = 'password']</value>
-      <webElementGuid>8aaaf9b2-4c58-4edf-bb09-640d7af978c5</webElementGuid>
+      <webElementGuid>6d9f5b25-f7db-45a9-a5f7-a7f0d05f1824</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

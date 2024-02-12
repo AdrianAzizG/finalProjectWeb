@@ -1,0 +1,68 @@
+1
+00:00:00,180 --> 00:00:01,260
+1. openBrowser("")
+
+2
+00:00:01,262 --> 00:00:03,080
+5. navigateToUrl("https://advantageonlineshopping.com/#/")
+
+3
+00:00:03,081 --> 00:00:05,812
+9. click(findTestObject("Object Repository/Record/Register/Page_Advantage Shopping/svg_CHECKOUT  (0.00)_menuUser"))
+
+4
+00:00:05,815 --> 00:00:08,832
+13. delay(3)
+
+5
+00:00:08,833 --> 00:00:09,767
+17. click(findTestObject("Object Repository/Record/Register/Page_Advantage Shopping/a_CREATE NEW ACCOUNT"))
+
+6
+00:00:09,769 --> 00:00:16,232
+21. setText(findTestObject("Object Repository/Record/Register/Page_Advantage Shopping/input__usernameRegisterPage"), "test")
+
+7
+00:00:16,235 --> 00:00:17,939
+25. setText(findTestObject("Object Repository/Record/Register/Page_Advantage Shopping/input__emailRegisterPage"), "mail.com")
+
+8
+00:00:17,940 --> 00:00:18,750
+29. setEncryptedText(findTestObject("Object Repository/Record/Register/Page_Advantage Shopping/input__passwordRegisterPage"), "NOZHw6sL/1I=")
+
+9
+00:00:18,750 --> 00:00:19,802
+33. setEncryptedText(findTestObject("Object Repository/Record/Register/Page_Advantage Shopping/input__confirm_passwordRegisterPage"), "NmLWqEVKCcs=")
+
+10
+00:00:19,803 --> 00:00:21,025
+37. click(findTestObject("Object Repository/Record/Register/Page_Advantage Shopping/div_ACCOUNT DETAILS                        _b895da"))
+
+11
+00:00:21,026 --> 00:00:21,640
+41. click(findTestObject("Object Repository/Record/Register/Page_Advantage Shopping/input_Receive exclusive offers and promotio_5c7450"))
+
+12
+00:00:21,641 --> 00:00:22,387
+45. verifyTextPresent("Use 5 character or longer", false)
+
+13
+00:00:22,388 --> 00:00:22,793
+49. verifyTextPresent("Your email address isn't formatted correctly", false)
+
+14
+00:00:22,794 --> 00:00:23,228
+53. verifyTextPresent("One upper letter required", false)
+
+15
+00:00:23,230 --> 00:00:23,703
+57. verifyTextPresent("Passwords do not match", false)
+
+16
+00:00:23,704 --> 00:00:24,365
+61. verifyElementNotClickable(findTestObject("Object Repository/Record/Register/Page_Advantage Shopping/button_REGISTER"))
+
+17
+00:00:24,367 --> 00:00:24,932
+65. closeBrowser()
+

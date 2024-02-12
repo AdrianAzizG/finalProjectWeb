@@ -6,12 +6,12 @@
    <elementGuidId>683503ba-8272-4e1b-abc7-c57a88b3838f</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>CSS</key>
-         <value>#sign_in_btn</value>
+         <key>XPATH</key>
+         <value></value>
       </entry>
       <entry>
-         <key>XPATH</key>
-         <value>//button[@id='sign_in_btn']</value>
+         <key>CSS</key>
+         <value>#sign_in_btn</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -22,7 +22,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>button</value>
-      <webElementGuid>6b6ffc6f-7f1b-404c-954e-8012c35795cd</webElementGuid>
+      <webElementGuid>e57ce609-6eb2-4304-96bf-7c91bb96f2f0</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -30,7 +30,7 @@
       <name>id</name>
       <type>Main</type>
       <value>sign_in_btn</value>
-      <webElementGuid>e6884e71-0748-481c-a43b-9309af160459</webElementGuid>
+      <webElementGuid>45eb2264-5ede-4c62-a24b-2eaed90acb82</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -38,7 +38,7 @@
       <name>type</name>
       <type>Main</type>
       <value>button</value>
-      <webElementGuid>ff7b2194-329b-46a0-9aa5-be7c3ca1d2fd</webElementGuid>
+      <webElementGuid>a954beaa-b27f-4ae0-a04b-655ca7c9a2aa</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -46,7 +46,7 @@
       <name>class</name>
       <type>Main</type>
       <value>sec-sender-a ng-scope</value>
-      <webElementGuid>577f93f6-65f2-4e40-91b1-eef7bccabfdf</webElementGuid>
+      <webElementGuid>2136fd0f-d79d-4bcf-a7ba-a7700965e476</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -54,7 +54,7 @@
       <name>role</name>
       <type>Main</type>
       <value>button</value>
-      <webElementGuid>a8a40d4e-a647-4314-b80a-c73cc3b3b6ac</webElementGuid>
+      <webElementGuid>b9ac5792-3ed0-449d-bcf5-1d090f6db0f2</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -62,7 +62,7 @@
       <name>data-ng-click</name>
       <type>Main</type>
       <value>senderCtrl.send()</value>
-      <webElementGuid>0303485d-17bf-4dc5-968a-965ff4b8e01e</webElementGuid>
+      <webElementGuid>a2421c4d-ae8d-4f73-91c5-e66bb340a569</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -70,7 +70,7 @@
       <name>text</name>
       <type>Main</type>
       <value>SIGN IN</value>
-      <webElementGuid>21b7b2c4-3952-4292-8902-e1df097893db</webElementGuid>
+      <webElementGuid>28c96221-af84-4c34-8f34-1aa695863491</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -78,7 +78,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;sign_in_btn&quot;)</value>
-      <webElementGuid>122b815c-89a6-4320-bb33-f93621d8419c</webElementGuid>
+      <webElementGuid>a9e89768-661b-4431-b7e9-badc6b67bbb2</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -86,7 +86,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>//button[@id='sign_in_btn']</value>
-      <webElementGuid>78929bb7-7e95-47e6-ad61-81711b2664cf</webElementGuid>
+      <webElementGuid>4a615b74-5228-4d30-9f9c-36eea64e7aea</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -94,7 +94,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='REMEMBER ME'])[1]/following::button[1]</value>
-      <webElementGuid>d4748481-bb7b-414c-9940-6bee1e07b94f</webElementGuid>
+      <webElementGuid>40c43b2f-c4cb-4eba-a780-8046278b22d4</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -102,7 +102,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Email'])[2]/following::button[1]</value>
-      <webElementGuid>f6d180a5-7e35-4bf8-ad5a-dbc142cf960d</webElementGuid>
+      <webElementGuid>ea3e0db8-153c-4c29-af6d-776ecf5a44ce</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -110,7 +110,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Forgot your password?'])[1]/preceding::button[1]</value>
-      <webElementGuid>69970b43-700f-4f00-a76a-2113012e9829</webElementGuid>
+      <webElementGuid>97ba7ddc-ce6a-47d7-ad6b-18971726dd89</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -118,7 +118,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='CREATE NEW ACCOUNT'])[1]/preceding::button[1]</value>
-      <webElementGuid>b2bd7ca2-a721-4a00-b940-be6148f225f4</webElementGuid>
+      <webElementGuid>ddc8a78d-d2eb-4496-bc04-f7bbc24284cd</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -126,7 +126,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>//*/text()[normalize-space(.)='SIGN IN']/parent::*</value>
-      <webElementGuid>c7e4f8e9-d300-4874-9c6e-fb6f92f039a4</webElementGuid>
+      <webElementGuid>1a9aae70-0a4f-45c6-9eca-ead8e67c9d76</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -134,7 +134,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//button</value>
-      <webElementGuid>afb6e32d-10cf-4563-ab2f-e79f1a59138d</webElementGuid>
+      <webElementGuid>159990ac-a8a7-494e-8407-97bc3b9ea6f7</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -142,6 +142,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//button[@id = 'sign_in_btn' and @type = 'button' and (text() = 'SIGN IN' or . = 'SIGN IN')]</value>
-      <webElementGuid>bc105c4b-ad2e-4733-a88b-828de582a2ee</webElementGuid>
+      <webElementGuid>28073633-ed67-43b4-9702-4c3f25b91760</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

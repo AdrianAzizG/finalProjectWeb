@@ -17,3 +17,23 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
+WebUI.openBrowser('')
+
+WebUI.navigateToUrl('https://advantageonlineshopping.com/#/')
+
+WebUI.click(findTestObject('Spy/Homepage/Page_Advantage Shopping/userIcon'))
+
+WebUI.delay(4)
+
+WebUI.setText(findTestObject('Spy/Homepage/Page_Advantage Shopping/usernameInput'), username)
+
+WebUI.setEncryptedText(findTestObject('Spy/Homepage/Page_Advantage Shopping/passwordInput'), password)
+
+WebUI.click(findTestObject('Spy/Homepage/Page_Advantage Shopping/signInButton'))
+
+WebUI.verifyTextPresent('Incorrect user name or password.', false)
+
+WebUI.delay(4)
+
+WebUI.closeBrowser()
+

@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>label_Incorrect user name or password</name>
+   <tag></tag>
+   <elementGuidId>1844fb9a-2d90-4aa9-acc4-5f6d49506875</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//label[@id='signInResultMessage']</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>#signInResultMessage</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>label</value>
+      <webElementGuid>77c20a13-7e58-4645-ba03-b87edfd1049c</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>id</name>
+      <type>Main</type>
+      <value>signInResultMessage</value>
+      <webElementGuid>9091938c-b56b-4f5b-97fe-dc1b882f4746</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>or  center invalid</value>
+      <webElementGuid>ad82d74f-a27d-406e-a70e-a33e1e2e8e5f</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Incorrect user name or password.</value>
+      <webElementGuid>42d1943d-15dd-4e1e-aefc-67856d8366cd</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;signInResultMessage&quot;)</value>
+      <webElementGuid>10df347e-376e-44f1-8da1-62e712e2ce53</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>//label[@id='signInResultMessage']</value>
+      <webElementGuid>f22a78bb-804c-45ad-9b57-17aa6f8c4695</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='SIGN IN WITH FACEBOOK'])[1]/following::label[1]</value>
+      <webElementGuid>026217b9-8547-4da1-94f7-fa4c68aca6db</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Username'])[2]/preceding::label[1]</value>
+      <webElementGuid>6f731cc5-164d-485c-a801-af9dbdcae5a9</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Password'])[2]/preceding::label[2]</value>
+      <webElementGuid>556f643f-3678-4116-a2f8-1d190298250a</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Incorrect user name or password.']/parent::*</value>
+      <webElementGuid>dec436ee-1385-4194-a6fc-a5c26605906b</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//label</value>
+      <webElementGuid>3fa9404e-4837-4d3a-8684-5ca6350162fd</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//label[@id = 'signInResultMessage' and (text() = 'Incorrect user name or password.' or . = 'Incorrect user name or password.')]</value>
+      <webElementGuid>8cf85a70-2c0a-4b00-a625-2a661a2ba294</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

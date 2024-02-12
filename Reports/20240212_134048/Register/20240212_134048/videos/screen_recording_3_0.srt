@@ -1,0 +1,88 @@
+1
+00:00:00,016 --> 00:00:00,847
+1. openBrowser("")
+
+2
+00:00:00,848 --> 00:00:04,006
+5. navigateToUrl(url)
+
+3
+00:00:04,007 --> 00:00:09,952
+9. click(findTestObject("Object Repository/Record/Register/Page_Advantage Shopping/svg_CHECKOUT  (0.00)_menuUser"))
+
+4
+00:00:09,953 --> 00:00:12,968
+13. delay(3)
+
+5
+00:00:12,971 --> 00:00:13,879
+17. click(findTestObject("Object Repository/Record/Register/Page_Advantage Shopping/a_CREATE NEW ACCOUNT"))
+
+6
+00:00:13,880 --> 00:00:16,897
+21. setText(findTestObject("Object Repository/Record/Register/Page_Advantage Shopping/input__usernameRegisterPage"), username)
+
+7
+00:00:16,900 --> 00:00:18,409
+25. setText(findTestObject("Object Repository/Record/Register/Page_Advantage Shopping/input__emailRegisterPage"), email)
+
+8
+00:00:18,411 --> 00:00:19,176
+29. setEncryptedText(findTestObject("Object Repository/Record/Register/Page_Advantage Shopping/input__passwordRegisterPage"), password)
+
+9
+00:00:19,179 --> 00:00:20,435
+33. setEncryptedText(findTestObject("Object Repository/Record/Register/Page_Advantage Shopping/input__confirm_passwordRegisterPage"), password)
+
+10
+00:00:20,437 --> 00:00:21,665
+37. setText(findTestObject("Object Repository/Record/Register/Page_Advantage Shopping/input_PERSONAL DETAILS_first_nameRegisterPage"), firstName)
+
+11
+00:00:21,666 --> 00:00:22,917
+41. setText(findTestObject("Object Repository/Record/Register/Page_Advantage Shopping/input_- Use maximum 30 character_last_nameR_6ef033"), lastName)
+
+12
+00:00:22,918 --> 00:00:24,696
+45. setText(findTestObject("Object Repository/Record/Register/Page_Advantage Shopping/input_- Use maximum 30 character_phone_numb_7c938a"), phoneNumber)
+
+13
+00:00:24,698 --> 00:00:36,312
+49. selectOptionByLabel(findTestObject("Object Repository/Record/Register/Page_Advantage Shopping/select_AfganistanAlbaniaAlgeriaAmerican Sam_3cef8a"), country, true)
+
+14
+00:00:36,314 --> 00:00:37,305
+53. setText(findTestObject("Object Repository/Record/Register/Page_Advantage Shopping/input_Country_cityRegisterPage"), city)
+
+15
+00:00:37,306 --> 00:00:38,679
+57. setText(findTestObject("Object Repository/Record/Register/Page_Advantage Shopping/input_- Use maximum 25 character_addressReg_9e23b3"), address)
+
+16
+00:00:38,680 --> 00:00:40,351
+61. setText(findTestObject("Object Repository/Record/Register/Page_Advantage Shopping/input_- Use maximum 50 character_state__pro_272a54"), region)
+
+17
+00:00:40,352 --> 00:00:42,158
+65. setText(findTestObject("Object Repository/Record/Register/Page_Advantage Shopping/input_- Use maximum 10 character_postal_cod_639c2f"), postCode)
+
+18
+00:00:42,159 --> 00:00:43,421
+69. click(findTestObject("Object Repository/Record/Register/Page_Advantage Shopping/input_Receive exclusive offers and promotio_5c7450"))
+
+19
+00:00:43,422 --> 00:00:44,094
+73. click(findTestObject("Object Repository/Record/Register/Page_Advantage Shopping/button_REGISTER"))
+
+20
+00:00:44,095 --> 00:01:15,739
+77. verifyElementText(findTestObject("Object Repository/Record/Register/Page_Advantage Shopping/span_testname"), username)
+
+21
+00:01:15,741 --> 00:01:18,760
+81. delay(3)
+
+22
+00:01:18,761 --> 00:01:19,460
+85. closeBrowser()
+

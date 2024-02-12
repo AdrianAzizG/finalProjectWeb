@@ -12,13 +12,13 @@
    <rerunImmediately>true</rerunImmediately>
    <testSuiteGuid>12813b64-12b3-4601-b0ff-5729c70115b4</testSuiteGuid>
    <testCaseLink>
-      <guid>f7af3578-d292-4275-bcbc-9455f7714ccb</guid>
+      <guid>18d873e9-35de-490d-b8ef-9cd939a34ae9</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Register 03 - Sudah Ada User</testCaseId>
+      <testCaseId>Test Cases/Register 01 - Sukses</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
-         <id>2a49e319-6a51-482b-a84b-aef01432997e</id>
+         <id>fbd8b6af-3973-4537-8829-18ba53e07c56</id>
          <iterationEntity>
             <iterationType>ALL</iterationType>
             <value></value>
@@ -27,22 +27,70 @@
       </testDataLink>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
       <variableLink>
-         <testDataLinkId></testDataLinkId>
-         <type>DEFAULT</type>
-         <value></value>
-         <variableId>5c860924-314b-4ecc-8b96-9f0ecd0f31ec</variableId>
+         <testDataLinkId>fbd8b6af-3973-4537-8829-18ba53e07c56</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>username</value>
+         <variableId>12dd6612-a77c-4256-8d46-5035b7825333</variableId>
       </variableLink>
       <variableLink>
-         <testDataLinkId></testDataLinkId>
-         <type>DEFAULT</type>
-         <value></value>
-         <variableId>56eca7d6-4086-4b42-afca-387dfc199d0e</variableId>
+         <testDataLinkId>fbd8b6af-3973-4537-8829-18ba53e07c56</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>email</value>
+         <variableId>73a15a3c-1f23-4d39-be2a-77ef118fc30f</variableId>
       </variableLink>
       <variableLink>
-         <testDataLinkId></testDataLinkId>
-         <type>DEFAULT</type>
-         <value></value>
-         <variableId>00130036-1370-40e5-8ccc-3b09c8b7307b</variableId>
+         <testDataLinkId>fbd8b6af-3973-4537-8829-18ba53e07c56</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>password</value>
+         <variableId>98798406-ef45-444f-8c02-438789c44d21</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>fbd8b6af-3973-4537-8829-18ba53e07c56</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>firstName</value>
+         <variableId>4cee141c-1394-4779-afc9-ddcad7641362</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>fbd8b6af-3973-4537-8829-18ba53e07c56</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>lastName</value>
+         <variableId>1945c208-ba64-4544-b636-944a93d2ecd1</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>fbd8b6af-3973-4537-8829-18ba53e07c56</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>phoneNumber</value>
+         <variableId>618f7ad3-7bc5-48b5-8983-7541484b00e8</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>fbd8b6af-3973-4537-8829-18ba53e07c56</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>address</value>
+         <variableId>c015c5a8-1c70-4c03-9da3-7ee338ce6cfc</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>fbd8b6af-3973-4537-8829-18ba53e07c56</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>city</value>
+         <variableId>b01abf1a-a9b4-41b4-ab68-bc2475e7c091</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>fbd8b6af-3973-4537-8829-18ba53e07c56</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>region</value>
+         <variableId>3cac6a47-18dc-4d76-bf36-80287459264f</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>fbd8b6af-3973-4537-8829-18ba53e07c56</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>postCode</value>
+         <variableId>7548842c-2cc2-4886-af69-ac1d0de53790</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>fbd8b6af-3973-4537-8829-18ba53e07c56</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>country</value>
+         <variableId>3d1a9090-dcda-44e7-83f0-369ba9ba061b</variableId>
       </variableLink>
    </testCaseLink>
    <testCaseLink>
