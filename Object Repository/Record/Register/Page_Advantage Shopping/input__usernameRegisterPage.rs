@@ -6,12 +6,12 @@
    <elementGuidId>b6049678-17ca-4914-8f8c-4c6e67127c32</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>CSS</key>
-         <value>input[name=&quot;usernameRegisterPage&quot;]</value>
-      </entry>
-      <entry>
          <key>XPATH</key>
          <value>//input[@name='usernameRegisterPage']</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>input[name=&quot;usernameRegisterPage&quot;]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -22,7 +22,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>input</value>
-      <webElementGuid>8be65838-a940-4856-91e6-3ca729c41de1</webElementGuid>
+      <webElementGuid>654c1a87-d0ff-4d66-8af1-489e3805126f</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -30,7 +30,7 @@
       <name>name</name>
       <type>Main</type>
       <value>usernameRegisterPage</value>
-      <webElementGuid>e0afaab3-930f-4f66-87f3-ac09b6deb73a</webElementGuid>
+      <webElementGuid>3883800a-80d4-4af4-9c3a-f6ce6189b61e</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -38,7 +38,7 @@
       <name>type</name>
       <type>Main</type>
       <value>text</value>
-      <webElementGuid>249c29ab-960c-4ca4-bf9a-4d8093791942</webElementGuid>
+      <webElementGuid>df4e6087-88e1-4dc9-9b4d-4986bdaf74ae</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -46,7 +46,7 @@
       <name>data-ng-model</name>
       <type>Main</type>
       <value>secModel</value>
-      <webElementGuid>99d85992-15b2-488d-857d-b9b17933503d</webElementGuid>
+      <webElementGuid>ae2ab96f-fa78-475c-a8dd-c05aa4253645</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -54,7 +54,7 @@
       <name>class</name>
       <type>Main</type>
       <value>ng-pristine ng-untouched ng-valid ng-scope in-focus</value>
-      <webElementGuid>bd9bdefe-a18d-4e7e-9487-03ca16ec2710</webElementGuid>
+      <webElementGuid>b7bf57b4-f599-4661-a7e2-4cebb1ed1be2</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -62,7 +62,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;formCover&quot;)/div[1]/div[@class=&quot;spliter&quot;]/sec-view[@class=&quot;ng-isolate-scope sec-view&quot;]/div[@class=&quot;inputContainer ng-scope&quot;]/input[@class=&quot;ng-pristine ng-untouched ng-valid ng-scope in-focus&quot;]</value>
-      <webElementGuid>96277dc9-53a5-4729-bd88-281da28c52f8</webElementGuid>
+      <webElementGuid>70b0e530-4e32-4674-bd82-0e4155317312</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -70,7 +70,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>//input[@name='usernameRegisterPage']</value>
-      <webElementGuid>178cfb86-9336-4592-9ef8-dfc0a9342b90</webElementGuid>
+      <webElementGuid>ea5c7c86-80ea-4e2a-bbb8-ca045f9d3217</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -78,7 +78,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='formCover']/div/div/sec-view/div/input</value>
-      <webElementGuid>c64a45d5-07d9-426d-91db-ae8d1beac6f5</webElementGuid>
+      <webElementGuid>23bab133-502c-43ae-bc92-a9ad773c2939</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -86,7 +86,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div[2]/div/div/div/sec-view/div/input</value>
-      <webElementGuid>470b58ea-6242-4b2d-bc2b-75be1f4d7e32</webElementGuid>
+      <webElementGuid>74756839-56de-4e0f-bec1-b45ff0b37578</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -94,6 +94,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//input[@name = 'usernameRegisterPage' and @type = 'text']</value>
-      <webElementGuid>d379bb92-fb60-423c-8522-b620628a02d6</webElementGuid>
+      <webElementGuid>044a05d4-9a0f-449b-9f39-2bf538d27d93</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

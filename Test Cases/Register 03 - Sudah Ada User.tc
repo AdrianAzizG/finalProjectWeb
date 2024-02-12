@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Register 03 - Sudah Ada User</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>8acf104d-2f83-4f44-a5a2-5d379d43a214</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>5c860924-314b-4ecc-8b96-9f0ecd0f31ec</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>56eca7d6-4086-4b42-afca-387dfc199d0e</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>00130036-1370-40e5-8ccc-3b09c8b7307b</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'testname'</defaultValue>
+      <description></description>
+      <id>5c860924-314b-4ecc-8b96-9f0ecd0f31ec</id>
+      <masked>false</masked>
+      <name>username</name>
+   </variable>
+   <variable>
+      <defaultValue>'test@mail.com'</defaultValue>
+      <description></description>
+      <id>56eca7d6-4086-4b42-afca-387dfc199d0e</id>
+      <masked>false</masked>
+      <name>email</name>
+   </variable>
+   <variable>
+      <defaultValue>'P22/mDurbpKSPtl3l0tASQ=='</defaultValue>
+      <description></description>
+      <id>00130036-1370-40e5-8ccc-3b09c8b7307b</id>
+      <masked>false</masked>
+      <name>password</name>
+   </variable>
+</TestCaseEntity>

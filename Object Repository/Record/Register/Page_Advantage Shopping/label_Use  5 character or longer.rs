@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>label_Use  5 character or longer</name>
+   <tag></tag>
+   <elementGuidId>592e218c-c4e9-402c-aa5c-3f702d56a22a</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='formCover']/div/div/sec-view/div/label</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>label.animated.invalid</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>label</value>
+      <webElementGuid>44d495d1-2add-4d32-9eac-688331a4eb37</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>data-ng-click</name>
+      <type>Main</type>
+      <value>labelClicked()</value>
+      <webElementGuid>cd545df2-5ec0-454f-9d07-172fb4e7af24</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>data-ng-mouseout</name>
+      <type>Main</type>
+      <value>labelOut()</value>
+      <webElementGuid>af4c920a-76d0-4de1-b7cc-0710c52de2b9</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>animated invalid</value>
+      <webElementGuid>97c41d8f-06a6-45b3-9a1c-367642c350ae</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Use  5 character or longer</value>
+      <webElementGuid>bbcf30a7-8ae1-43e9-a1d7-af336e05bb19</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;formCover&quot;)/div[1]/div[@class=&quot;spliter&quot;]/sec-view[@class=&quot;ng-isolate-scope sec-view&quot;]/div[@class=&quot;inputContainer ng-scope&quot;]/label[@class=&quot;animated invalid&quot;]</value>
+      <webElementGuid>03af96e6-5baa-4a16-9d39-0ea4944895ae</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='formCover']/div/div/sec-view/div/label</value>
+      <webElementGuid>e5ea9285-f6d6-4f7c-b805-0b10690329e6</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='*'])[1]/following::label[1]</value>
+      <webElementGuid>99903097-24a0-4905-b415-250e2c24571d</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='ACCOUNT DETAILS'])[1]/following::label[1]</value>
+      <webElementGuid>29f04d00-7b40-4918-9681-6fc1dcfe9a6e</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='- Use maximum 15 character'])[1]/preceding::label[1]</value>
+      <webElementGuid>b18b5d7d-35c3-43f3-a8e8-9563c54d3c26</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[2]/div/div/div/sec-view/div/label</value>
+      <webElementGuid>9bf11c1e-91be-480b-bea4-07bb839ddb58</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//label[(text() = 'Use  5 character or longer' or . = 'Use  5 character or longer')]</value>
+      <webElementGuid>d483f866-0cf4-452c-bbf7-120349c1ecc4</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>label_Passwords do not match</name>
+   <tag></tag>
+   <elementGuidId>5038c67c-9964-4616-8465-ce451acb5137</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='formCover']/div/div[2]/sec-view[2]/div/label</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value></value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>label</value>
+      <webElementGuid>ca9226ff-6417-4cec-8e63-2e59460acd50</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>data-ng-click</name>
+      <type>Main</type>
+      <value>labelClicked()</value>
+      <webElementGuid>1e7600af-68d3-47e3-84b0-94f82d14767b</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>data-ng-mouseout</name>
+      <type>Main</type>
+      <value>labelOut()</value>
+      <webElementGuid>0f8541bb-76bb-4fe9-a927-37ed1737a21d</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>animated invalid</value>
+      <webElementGuid>f42fcc68-1745-4403-9c5f-532591cf47c4</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Passwords do not match</value>
+      <webElementGuid>1c7009f5-ed0d-49f0-a7c3-dda3a15b17fd</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;formCover&quot;)/div[1]/div[@class=&quot;spliter&quot;]/sec-view[@class=&quot;ng-isolate-scope sec-view&quot;]/div[@class=&quot;inputContainer ng-scope&quot;]/label[@class=&quot;animated invalid&quot;]</value>
+      <webElementGuid>61ecdba3-3a50-4d61-974b-5e5653c39927</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='formCover']/div/div[2]/sec-view[2]/div/label</value>
+      <webElementGuid>c99a8e4e-ade2-425d-b004-096038bd5078</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='*'])[4]/following::label[1]</value>
+      <webElementGuid>a9d447cc-c86e-4b93-94e7-de96cd733194</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='- Including at least one number'])[1]/following::label[1]</value>
+      <webElementGuid>23c47fe9-254f-46bc-9229-14253c17f864</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='- Same as Password'])[1]/preceding::label[1]</value>
+      <webElementGuid>554353c9-67d1-4001-9bfc-e276e36b76d1</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='PERSONAL DETAILS'])[1]/preceding::label[1]</value>
+      <webElementGuid>dd52567d-cb33-43c3-b227-ff21261a0b8a</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Passwords do not match']/parent::*</value>
+      <webElementGuid>609219e4-a607-46d5-97d8-d7f6e854b1fa</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[2]/sec-view[2]/div/label</value>
+      <webElementGuid>166b8fe7-9550-4a80-8314-aa06b8ae7f15</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//label[(text() = 'Passwords do not match' or . = 'Passwords do not match')]</value>
+      <webElementGuid>e6cc2a62-30d4-4cc3-8578-5b1f2a26d21e</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

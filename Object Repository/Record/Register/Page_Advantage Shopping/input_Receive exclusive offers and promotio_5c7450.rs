@@ -6,12 +6,12 @@
    <elementGuidId>b232b6b1-8076-4a22-a75b-f75198818031</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>CSS</key>
-         <value>input[name=&quot;i_agree&quot;]</value>
-      </entry>
-      <entry>
          <key>XPATH</key>
          <value>//input[@name='i_agree']</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>input[name=&quot;i_agree&quot;]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -22,7 +22,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>input</value>
-      <webElementGuid>0e98fc6d-64ea-4a0a-821c-3058936c8bb7</webElementGuid>
+      <webElementGuid>7dd0dd9f-35c7-4ab1-b203-22f04cda53ea</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -30,7 +30,7 @@
       <name>name</name>
       <type>Main</type>
       <value>i_agree</value>
-      <webElementGuid>2febab38-7b26-4775-8336-ab58ca688377</webElementGuid>
+      <webElementGuid>7d809974-a65c-4917-bea6-15f82d46d275</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -38,7 +38,7 @@
       <name>type</name>
       <type>Main</type>
       <value>checkbox</value>
-      <webElementGuid>67390808-3521-4341-9fe1-ac337b3f7c70</webElementGuid>
+      <webElementGuid>8f8707a5-c78e-4af9-9f12-d87806c0babb</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -46,7 +46,7 @@
       <name>data-ng-model</name>
       <type>Main</type>
       <value>secModel</value>
-      <webElementGuid>482d0a92-c8c1-4c9e-b5f4-cc5035a68796</webElementGuid>
+      <webElementGuid>625f3fbb-60e9-4e07-800a-11f9b4ead1c5</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -54,7 +54,7 @@
       <name>class</name>
       <type>Main</type>
       <value>ng-pristine ng-untouched ng-valid ng-scope in-focus</value>
-      <webElementGuid>be7a9237-6253-43e8-bcab-1da18b11c9bb</webElementGuid>
+      <webElementGuid>2589a0ac-06a5-464c-a582-7b253e9a165e</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -62,7 +62,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;formCover&quot;)/sec-view[@class=&quot;ng-isolate-scope sec-view&quot;]/div[@class=&quot;inputContainer ng-scope&quot;]/input[@class=&quot;ng-pristine ng-untouched ng-valid ng-scope in-focus&quot;]</value>
-      <webElementGuid>30123798-b914-4879-bcef-54f856542221</webElementGuid>
+      <webElementGuid>445d1d70-c433-4ab6-a077-343a58962c63</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -70,7 +70,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>//input[@name='i_agree']</value>
-      <webElementGuid>2e004da7-87ee-44c0-8b8b-2f24918b3f9b</webElementGuid>
+      <webElementGuid>a50d9e7b-d746-4852-bf9f-bd27611b0f20</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -78,7 +78,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='formCover']/sec-view/div/input</value>
-      <webElementGuid>ea13aaa4-208d-4c0a-a44e-9706a86aef04</webElementGuid>
+      <webElementGuid>4546eab5-4191-4191-b4aa-3a5f4fafb268</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -86,7 +86,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div/sec-view/div/input</value>
-      <webElementGuid>964b7fd2-05f7-412c-8b51-2586d6917c06</webElementGuid>
+      <webElementGuid>2ed7ed06-dbed-400c-b155-793187d41d7b</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -94,6 +94,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//input[@name = 'i_agree' and @type = 'checkbox']</value>
-      <webElementGuid>e9164d0d-a056-4d94-8cc1-6fd5b2978ab4</webElementGuid>
+      <webElementGuid>03371d72-5bb0-4998-8cb1-184f1833d6eb</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

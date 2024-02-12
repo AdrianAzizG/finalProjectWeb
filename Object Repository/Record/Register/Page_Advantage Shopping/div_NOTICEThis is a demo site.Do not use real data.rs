@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>div_NOTICEThis is a demo site.Do not use real data</name>
+   <tag></tag>
+   <elementGuidId>3e0b033b-93fa-40fa-893f-63d66632de0f</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='infoDemo']</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>#infoDemo</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>9456b320-6472-48aa-a4d7-aceb3924cfef</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>id</name>
+      <type>Main</type>
+      <value>infoDemo</value>
+      <webElementGuid>a1c47e60-cc86-4734-8388-99f6a0fbee20</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>
+                    NOTICEThis is a demo site.Do not use real data.
+                </value>
+      <webElementGuid>c34abe8f-1267-4326-b236-3397ccec9b5d</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;infoDemo&quot;)</value>
+      <webElementGuid>ef1c4b2d-1cba-41a8-922c-cc128288fd04</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>//div[@id='infoDemo']</value>
+      <webElementGuid>c83f3698-df97-43e1-b47e-65586fed907b</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='registerCover']/div</value>
+      <webElementGuid>f1a6e5f1-b250-49a9-bda2-7937288ad9b2</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='CREATE ACCOUNT'])[2]/following::div[2]</value>
+      <webElementGuid>b1a7b6e0-280a-4cdc-ac7b-ecca285e33df</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='CREATE ACCOUNT'])[1]/following::div[2]</value>
+      <webElementGuid>13c83282-1487-430c-a3e1-742b1d807c8f</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='ACCOUNT DETAILS'])[1]/preceding::div[3]</value>
+      <webElementGuid>0c01b8f8-8b12-42fb-98b3-39b05753f7a9</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//sec-form/div/div</value>
+      <webElementGuid>04f6a05f-ddd0-4097-a09b-bcc64e621c81</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//div[@id = 'infoDemo' and (text() = '
+                    NOTICEThis is a demo site.Do not use real data.
+                ' or . = '
+                    NOTICEThis is a demo site.Do not use real data.
+                ')]</value>
+      <webElementGuid>2454e1aa-305a-4c0f-bf4e-fdbe4302c679</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

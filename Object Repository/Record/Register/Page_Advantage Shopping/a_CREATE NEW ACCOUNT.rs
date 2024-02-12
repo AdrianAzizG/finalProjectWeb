@@ -6,12 +6,12 @@
    <elementGuidId>250ed626-e992-467c-86d9-08b47a7553cd</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>CSS</key>
-         <value>a.create-new-account.ng-scope</value>
-      </entry>
-      <entry>
          <key>XPATH</key>
          <value>//a[contains(text(),'CREATE NEW ACCOUNT')]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>a.create-new-account.ng-scope</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -22,7 +22,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>a</value>
-      <webElementGuid>5f9ad997-32d3-4830-976e-45f3b4f0452b</webElementGuid>
+      <webElementGuid>47fc3c60-c6c1-4250-9fda-fc3ace2232e9</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -30,7 +30,7 @@
       <name>href</name>
       <type>Main</type>
       <value>javascript:void(0)</value>
-      <webElementGuid>ea5efce0-9f99-4c94-af66-c33fafa650db</webElementGuid>
+      <webElementGuid>ac6f7be5-5057-4121-b55e-f13c4e1c9369</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -38,7 +38,7 @@
       <name>role</name>
       <type>Main</type>
       <value>link</value>
-      <webElementGuid>ffb95412-e865-4cfa-9859-169599da3083</webElementGuid>
+      <webElementGuid>83d7ab47-e56a-4f60-aa3e-3be9088728f2</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -46,7 +46,7 @@
       <name>class</name>
       <type>Main</type>
       <value>create-new-account ng-scope</value>
-      <webElementGuid>84d48d81-1eb5-4637-9165-0f2d664310d2</webElementGuid>
+      <webElementGuid>9a44c3a3-2bae-4197-a0a1-6f39c676ed05</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -54,7 +54,7 @@
       <name>translate</name>
       <type>Main</type>
       <value>CREATE_NEW_ACCOUNT</value>
-      <webElementGuid>4c5656ef-f729-4515-94f7-18574e65049a</webElementGuid>
+      <webElementGuid>cd6a1091-0958-4621-8579-6838720da514</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -62,7 +62,7 @@
       <name>data-ng-click</name>
       <type>Main</type>
       <value>createNewAccount()</value>
-      <webElementGuid>0dbdd30f-496e-4322-b21e-048d35e94f04</webElementGuid>
+      <webElementGuid>72e58bd6-8cfb-4b6d-8183-a44603645a2b</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -70,7 +70,7 @@
       <name>text</name>
       <type>Main</type>
       <value>CREATE NEW ACCOUNT</value>
-      <webElementGuid>23fe6a1b-1274-4ce8-ab19-6a5d682f6814</webElementGuid>
+      <webElementGuid>6557828c-2657-4bcf-b9b4-2fc8160663a4</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -78,7 +78,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>/html[1]/body[@class=&quot;ng-scope&quot;]/login-modal[1]/div[@class=&quot;PopUp&quot;]/div[1]/div[@class=&quot;login ng-scope&quot;]/a[@class=&quot;create-new-account ng-scope&quot;]</value>
-      <webElementGuid>95560a02-9f5f-4112-bb4b-252037226ef2</webElementGuid>
+      <webElementGuid>407022ca-903d-405e-aefb-cbfa901382da</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -86,7 +86,7 @@
       <name>xpath:link</name>
       <type>Main</type>
       <value>//a[contains(text(),'CREATE NEW ACCOUNT')]</value>
-      <webElementGuid>c1b7e091-a718-49c2-aae5-3f90166db13f</webElementGuid>
+      <webElementGuid>8f4ded20-9acf-4103-9571-22bb750a6097</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -94,7 +94,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Forgot your password?'])[1]/following::a[1]</value>
-      <webElementGuid>dd59d6e5-9769-4d82-bf67-617f44bb3518</webElementGuid>
+      <webElementGuid>295a9643-1fca-4bbf-89ed-cb0bdf9785dd</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -102,7 +102,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='SIGN IN'])[1]/following::a[2]</value>
-      <webElementGuid>1a170b4f-9d23-4360-b8cf-8fa0af1f3953</webElementGuid>
+      <webElementGuid>d375a560-3b6e-4037-8b23-289d616a5e1e</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -110,7 +110,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='My account'])[1]/preceding::a[1]</value>
-      <webElementGuid>48ff002a-5a3a-46c6-af68-6d2ad02e7106</webElementGuid>
+      <webElementGuid>b270074d-a0dd-41d8-85d0-38159bc47410</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -118,7 +118,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='My orders'])[1]/preceding::a[1]</value>
-      <webElementGuid>4c54f626-2e70-4d9a-88ba-a200355ff115</webElementGuid>
+      <webElementGuid>9f371395-b408-4c71-bdba-2691d61e86ad</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -126,7 +126,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>//*/text()[normalize-space(.)='CREATE NEW ACCOUNT']/parent::*</value>
-      <webElementGuid>9b35dbd4-dfa6-4534-a970-380dd8bdcda4</webElementGuid>
+      <webElementGuid>48906351-e910-4e27-8d18-a7f9a91d83c0</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -134,7 +134,7 @@
       <name>xpath:href</name>
       <type>Main</type>
       <value>(//a[contains(@href, 'javascript:void(0)')])[2]</value>
-      <webElementGuid>4fcd039a-775c-4609-8546-7d235db1b656</webElementGuid>
+      <webElementGuid>63119cff-0139-4a68-bd04-c4877b9f7c9b</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -142,7 +142,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//a[2]</value>
-      <webElementGuid>55e9ba2f-e333-4e37-9b40-4c37d9b7dcbd</webElementGuid>
+      <webElementGuid>c7487094-300c-40a5-9f13-47197cb491f5</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -150,6 +150,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//a[@href = 'javascript:void(0)' and (text() = 'CREATE NEW ACCOUNT' or . = 'CREATE NEW ACCOUNT')]</value>
-      <webElementGuid>59de7c21-8918-4846-8425-696da0f8caa6</webElementGuid>
+      <webElementGuid>c59da325-bdd2-4f80-8224-56b9a49dfd74</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

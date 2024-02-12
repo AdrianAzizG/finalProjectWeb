@@ -6,12 +6,12 @@
    <elementGuidId>559e5d34-896e-4f93-ae53-867867403e1e</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>CSS</key>
-         <value>input[name=&quot;confirm_passwordRegisterPage&quot;]</value>
-      </entry>
-      <entry>
          <key>XPATH</key>
          <value>//input[@name='confirm_passwordRegisterPage']</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>input[name=&quot;confirm_passwordRegisterPage&quot;]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -22,7 +22,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>input</value>
-      <webElementGuid>1561d123-a573-41c0-8cb0-07d3317fdd5f</webElementGuid>
+      <webElementGuid>fb007b08-05b0-430b-a933-4b1cd964935c</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -30,7 +30,7 @@
       <name>name</name>
       <type>Main</type>
       <value>confirm_passwordRegisterPage</value>
-      <webElementGuid>cbb5c0d5-dbec-4197-936a-96c385922321</webElementGuid>
+      <webElementGuid>f698a89c-fc96-4296-aeea-0d36158ac785</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -38,7 +38,7 @@
       <name>type</name>
       <type>Main</type>
       <value>password</value>
-      <webElementGuid>cc44019c-46b7-46c5-b637-73995c06ffa6</webElementGuid>
+      <webElementGuid>5415f808-aaaf-4a93-b181-9602fa5bbed9</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -46,7 +46,7 @@
       <name>data-ng-model</name>
       <type>Main</type>
       <value>secModel</value>
-      <webElementGuid>739af118-829f-4f01-b204-a8f7b412196a</webElementGuid>
+      <webElementGuid>35d83adf-6a14-4c94-9a03-9f4fbd1d1430</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -54,7 +54,7 @@
       <name>class</name>
       <type>Main</type>
       <value>ng-pristine ng-untouched ng-valid ng-scope in-focus ng-dirty-add ng-valid-parse-add ng-animate ng-pristine-remove</value>
-      <webElementGuid>07fc13a9-b44d-40b7-99b1-856f8b313321</webElementGuid>
+      <webElementGuid>5af83bb7-2dc8-4708-af8c-2ffd40cd5801</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -62,7 +62,7 @@
       <name>data-ng-animate</name>
       <type>Main</type>
       <value>2</value>
-      <webElementGuid>d582503b-def8-4bd5-8da7-d9d0a2ceef3c</webElementGuid>
+      <webElementGuid>322ceedd-252e-4575-81e7-45fdbb0cf209</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -70,7 +70,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;formCover&quot;)/div[1]/div[@class=&quot;spliter&quot;]/sec-view[@class=&quot;ng-isolate-scope sec-view&quot;]/div[@class=&quot;inputContainer ng-scope&quot;]/input[@class=&quot;ng-pristine ng-untouched ng-valid ng-scope in-focus ng-dirty-add ng-valid-parse-add ng-animate ng-pristine-remove&quot;]</value>
-      <webElementGuid>6948e0dc-f99f-4a64-8ed1-3ca75e5acad8</webElementGuid>
+      <webElementGuid>789a2f8e-d0c8-48e1-9396-4f079d6c6332</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -78,7 +78,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>//input[@name='confirm_passwordRegisterPage']</value>
-      <webElementGuid>b5510d9d-62aa-4ab1-aa2d-a7bdd7fc8bc8</webElementGuid>
+      <webElementGuid>3ad554db-18e3-48c8-97c0-08cf5b1bf242</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -86,7 +86,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='formCover']/div/div[2]/sec-view[2]/div/input</value>
-      <webElementGuid>78331d8c-4b0a-4b55-b23a-b8d5d400e0f2</webElementGuid>
+      <webElementGuid>00a7b673-62da-4053-80e9-d4d5ffec58fd</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -94,7 +94,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div[2]/sec-view[2]/div/input</value>
-      <webElementGuid>4941dacc-a364-4613-b4e7-dd86d13a467d</webElementGuid>
+      <webElementGuid>199fe698-e440-4644-b8a4-2088f75df8c2</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -102,6 +102,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//input[@name = 'confirm_passwordRegisterPage' and @type = 'password']</value>
-      <webElementGuid>08a81253-ea22-4a44-bba6-7a51ba1b6f99</webElementGuid>
+      <webElementGuid>e321318c-b32b-4b10-b096-25820f48bcd9</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>
