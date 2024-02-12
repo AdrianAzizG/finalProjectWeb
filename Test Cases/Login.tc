@@ -18,14 +18,14 @@
       <variableId>7405bf5e-ddb9-4adb-95d8-7b98d81fea62</variableId>
    </variableLinks>
    <variable>
-      <defaultValue>''</defaultValue>
+      <defaultValue>'testname'</defaultValue>
       <description></description>
       <id>df1fcae6-306e-442c-9951-fdebbb18b555</id>
       <masked>false</masked>
       <name>username</name>
    </variable>
    <variable>
-      <defaultValue>''</defaultValue>
+      <defaultValue>'P22/mDurbpKSPtl3l0tASQ=='</defaultValue>
       <description></description>
       <id>7405bf5e-ddb9-4adb-95d8-7b98d81fea62</id>
       <masked>false</masked>

@@ -21,15 +21,15 @@ WebUI.openBrowser('')
 
 WebUI.navigateToUrl('https://advantageonlineshopping.com/#/')
 
-WebUI.click(findTestObject('Object Repository/Record/Page_Advantage Shopping/svg_CHECKOUT  (0.00)_menuUser'))
+WebUI.click(findTestObject('Object Repository/Record/Login/Page_Advantage Shopping/svg_CHECKOUT  (0.00)_menuUser'))
 
-WebUI.setText(findTestObject('Object Repository/Record/Page_Advantage Shopping/input_OR_username'), username)
+WebUI.setText(findTestObject('Object Repository/Record/Login/Page_Advantage Shopping/input_OR_username'), username)
 
-WebUI.setEncryptedText(findTestObject('Object Repository/Record/Page_Advantage Shopping/input_Username_password'), password)
+WebUI.setEncryptedText(findTestObject('Object Repository/Record/Login/Page_Advantage Shopping/input_Username_password'), password)
 
-WebUI.click(findTestObject('Object Repository/Record/Page_Advantage Shopping/button_SIGN IN'))
+WebUI.click(findTestObject('Object Repository/Record/Login/Page_Advantage Shopping/button_SIGN IN'))
 
-WebUI.verifyElementText(findTestObject('Object Repository/Record/Page_Advantage Shopping/span_testname'), username)
+WebUI.verifyElementText(findTestObject('Object Repository/Record/Login/Page_Advantage Shopping/span_testname'), username)
 
 WebUI.closeBrowser()
 
