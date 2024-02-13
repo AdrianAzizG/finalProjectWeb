@@ -19,6 +19,8 @@ import org.openqa.selenium.Keys as Keys
 
 int randomNumber = CustomKeywords.'customKeywords.randomGenerator.generateRandomNumber'()
 
+println(randomNumber)
+
 WebUI.openBrowser('')
 
 WebUI.navigateToUrl('https://advantageonlineshopping.com/#/')
@@ -26,7 +28,7 @@ WebUI.navigateToUrl('https://advantageonlineshopping.com/#/')
 WebUI.click(findTestObject('Spy/Homepage/Page_Advantage Shopping/searchIcon'))
 
 switch (randomNumber) {
-    case randomNumber == 1:
+    case 1:
         WebUI.setText(findTestObject('Object Repository/Record/Search Item/Page_Advantage Shopping/input_Sign out_autoComplete'), 
             'HP Pavilion 15z')
 
@@ -36,7 +38,7 @@ switch (randomNumber) {
         WebUI.verifyTextPresent('HP Pavilion 15z Laptop', false)
 
         break
-    case randomNumber == 2:
+    case 2:
         WebUI.setText(findTestObject('Object Repository/Record/Search Item/Page_Advantage Shopping/input_Sign out_autoComplete'), 
             'Logitech G')
 
@@ -46,7 +48,7 @@ switch (randomNumber) {
         WebUI.verifyTextPresent('Logitech G502 Proteus Core', false)
 
         break
-    case randomNumber == 3:
+    case 3:
         WebUI.setText(findTestObject('Object Repository/Record/Search Item/Page_Advantage Shopping/input_Sign out_autoComplete'), 
             'Beats')
 
