@@ -1,0 +1,44 @@
+1
+00:00:00,258 --> 00:00:00,399
+1. randomNumber = customKeywords.randomGenerator.generateRandomNumber()
+
+2
+00:00:00,416 --> 00:00:00,436
+5. println(randomNumber)
+
+3
+00:00:00,437 --> 00:00:02,270
+9. openBrowser("")
+
+4
+00:00:02,271 --> 00:00:05,663
+13. navigateToUrl("https://advantageonlineshopping.com/#/")
+
+5
+00:00:05,664 --> 00:00:11,044
+17. click(findTestObject("Spy/Homepage/Page_Advantage Shopping/searchIcon"))
+
+6
+00:00:11,045 --> 00:00:11,055
+21. switch (randomNumber)
+
+7
+00:00:11,056 --> 00:00:13,115
+2. setText(findTestObject("Object Repository/Record/Search Item/Page_Advantage Shopping/input_Sign out_autoComplete"), "Logitech G")
+
+8
+00:00:13,119 --> 00:00:30,893
+6. sendKeys(findTestObject("Object Repository/Record/Search Item/Page_Advantage Shopping/input_Sign out_autoComplete"), Keys.chord(ENTER))
+
+9
+00:00:30,895 --> 00:00:31,960
+10. verifyTextPresent("Logitech G502 Proteus Core", false)
+
+10
+00:00:31,962 --> 00:00:31,975
+14. break
+
+11
+00:00:31,976 --> 00:00:32,668
+25. closeBrowser()
+

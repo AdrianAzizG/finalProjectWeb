@@ -1,0 +1,227 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Search Item" time="125.682" tests="4" failures="0" errors="0">
+   <testsuite name="Search Item" tests="4" failures="0" errors="0" time="125.682" skipped="0" timestamp="13-02-2024T07:39:23" hostname="aziz_ - AspireVeroA2G" id="Test Suites/Search Item">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\aziz_\\git\\finalProjectWeb\\Reports\\20240213_073919\\Search Item\\20240213_073919"/>
+         <property name="logFiles" value="C:\\Users\\aziz_\\git\\finalProjectWeb\\Reports\\20240213_073919\\Search Item\\20240213_073919\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="aziz_ - AspireVeroA2G"/>
+         <property name="os" value="Windows 11 64bit"/>
+         <property name="katalonVersion" value="9.3.0.212"/>
+         <property name="browser" value="Chrome 121.0.0.0"/>
+         <property name="hostAddress" value="172.16.213.227"/>
+         <property name="sessionId" value="a833ab758f1ac5546b7974951505ca44"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 11"/>
+      </properties>
+      <testcase name="Test Cases/Search Item 01 - Item Found" time="35.099" classname="Test Cases/Search Item 01 - Item Found" status="PASSED">
+         <system-out><![CDATA[13-02-2024T07:39:23 - [TEST_CASE][PASSED] - Test Cases/Search Item 01 - Item Found: Test Cases/Search Item 01 - Item Found
+
+13-02-2024T07:39:24 - [TEST_STEP][PASSED] - randomNumber = customKeywords.randomGenerator.generateRandomNumber(): customKeywords.randomGenerator.generateRandomNumber is PASSED
+
+13-02-2024T07:39:24 - [MESSAGE][PASSED] - customKeywords.randomGenerator.generateRandomNumber is PASSED
+
+13-02-2024T07:39:24 - [TEST_STEP][PASSED] - println(randomNumber): null
+
+13-02-2024T07:39:24 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+13-02-2024T07:39:24 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+13-02-2024T07:39:24 - [MESSAGE][INFO] - User set preference: ['args', '[--start-maximized]']
+
+13-02-2024T07:39:24 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+13-02-2024T07:39:26 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+13-02-2024T07:39:26 - [TEST_STEP][PASSED] - navigateToUrl("https://advantageonlineshopping.com/#/"): Navigate to 'https://advantageonlineshopping.com/#/' successfully
+
+13-02-2024T07:39:29 - [MESSAGE][PASSED] - Navigate to 'https://advantageonlineshopping.com/#/' successfully
+
+13-02-2024T07:39:29 - [TEST_STEP][PASSED] - click(findTestObject("Spy/Homepage/Page_Advantage Shopping/searchIcon")): Object: 'Object Repository/Spy/Homepage/Page_Advantage Shopping/searchIcon' is clicked on
+
+13-02-2024T07:39:34 - [MESSAGE][PASSED] - Object: 'Object Repository/Spy/Homepage/Page_Advantage Shopping/searchIcon' is clicked on
+
+13-02-2024T07:39:34 - [TEST_STEP][PASSED] - switch (randomNumber): null
+
+13-02-2024T07:39:34 - [TEST_STEP][PASSED] - case 2:: null
+
+13-02-2024T07:39:34 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Record/Search Item/Page_Advantage Shopping/input_Sign out_autoComplete"), "Logitech G"): Text 'Logitech G' is set on object 'Object Repository/Record/Search Item/Page_Advantage Shopping/input_Sign out_autoComplete'
+
+13-02-2024T07:39:36 - [MESSAGE][PASSED] - Text 'Logitech G' is set on object 'Object Repository/Record/Search Item/Page_Advantage Shopping/input_Sign out_autoComplete'
+
+13-02-2024T07:39:37 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Object Repository/Record/Search Item/Page_Advantage Shopping/input_Sign out_autoComplete"), Keys.chord(ENTER)): Keys 'ENTER + ' sent to object: 'Object Repository/Record/Search Item/Page_Advantage Shopping/input_Sign out_autoComplete'
+
+13-02-2024T07:39:54 - [MESSAGE][PASSED] - Keys 'ENTER + ' sent to object: 'Object Repository/Record/Search Item/Page_Advantage Shopping/input_Sign out_autoComplete'
+
+13-02-2024T07:39:54 - [TEST_STEP][PASSED] - verifyTextPresent("Logitech G502 Proteus Core", false): Text 'Logitech G502 Proteus Core' is present on page 
+
+13-02-2024T07:39:55 - [MESSAGE][PASSED] - Text 'Logitech G502 Proteus Core' is present on page 
+
+13-02-2024T07:39:55 - [TEST_STEP][PASSED] - break: null
+
+13-02-2024T07:39:55 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+13-02-2024T07:39:56 - [MESSAGE][PASSED] - Browser is closed
+
+13-02-2024T07:39:58 - [TEST_STEP][PASSED] - Video: Video recording for test case 'Test Cases/Search Item 01 - Item Found' .
+
+13-02-2024T07:39:58 - [MESSAGE][INFO] - Video recording for test case 'Test Cases/Search Item 01 - Item Found' .]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Search Item 01 - Item Found" time="23.581" classname="Test Cases/Search Item 01 - Item Found" status="PASSED">
+         <system-out><![CDATA[13-02-2024T07:39:58 - [TEST_CASE][PASSED] - Test Cases/Search Item 01 - Item Found: Test Cases/Search Item 01 - Item Found
+
+13-02-2024T07:39:58 - [TEST_STEP][PASSED] - randomNumber = customKeywords.randomGenerator.generateRandomNumber(): customKeywords.randomGenerator.generateRandomNumber is PASSED
+
+13-02-2024T07:39:58 - [MESSAGE][PASSED] - customKeywords.randomGenerator.generateRandomNumber is PASSED
+
+13-02-2024T07:39:58 - [TEST_STEP][PASSED] - println(randomNumber): null
+
+13-02-2024T07:39:58 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+13-02-2024T07:39:58 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+13-02-2024T07:39:58 - [MESSAGE][INFO] - User set preference: ['args', '[--start-maximized]']
+
+13-02-2024T07:39:58 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+13-02-2024T07:40:00 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+13-02-2024T07:40:00 - [TEST_STEP][PASSED] - navigateToUrl("https://advantageonlineshopping.com/#/"): Navigate to 'https://advantageonlineshopping.com/#/' successfully
+
+13-02-2024T07:40:04 - [MESSAGE][PASSED] - Navigate to 'https://advantageonlineshopping.com/#/' successfully
+
+13-02-2024T07:40:04 - [TEST_STEP][PASSED] - click(findTestObject("Spy/Homepage/Page_Advantage Shopping/searchIcon")): Object: 'Object Repository/Spy/Homepage/Page_Advantage Shopping/searchIcon' is clicked on
+
+13-02-2024T07:40:08 - [MESSAGE][PASSED] - Object: 'Object Repository/Spy/Homepage/Page_Advantage Shopping/searchIcon' is clicked on
+
+13-02-2024T07:40:08 - [TEST_STEP][PASSED] - switch (randomNumber): null
+
+13-02-2024T07:40:08 - [TEST_STEP][PASSED] - case 3:: null
+
+13-02-2024T07:40:08 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Record/Search Item/Page_Advantage Shopping/input_Sign out_autoComplete"), "Beats"): Text 'Beats' is set on object 'Object Repository/Record/Search Item/Page_Advantage Shopping/input_Sign out_autoComplete'
+
+13-02-2024T07:40:10 - [MESSAGE][PASSED] - Text 'Beats' is set on object 'Object Repository/Record/Search Item/Page_Advantage Shopping/input_Sign out_autoComplete'
+
+13-02-2024T07:40:10 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Object Repository/Record/Search Item/Page_Advantage Shopping/input_Sign out_autoComplete"), Keys.chord(ENTER)): Keys 'ENTER + ' sent to object: 'Object Repository/Record/Search Item/Page_Advantage Shopping/input_Sign out_autoComplete'
+
+13-02-2024T07:40:18 - [MESSAGE][PASSED] - Keys 'ENTER + ' sent to object: 'Object Repository/Record/Search Item/Page_Advantage Shopping/input_Sign out_autoComplete'
+
+13-02-2024T07:40:18 - [TEST_STEP][PASSED] - verifyTextPresent("Beats Studio 2 Over-Ear Matte Black Headphones", false): Text 'Beats Studio 2 Over-Ear Matte Black Headphones' is present on page 
+
+13-02-2024T07:40:19 - [MESSAGE][PASSED] - Text 'Beats Studio 2 Over-Ear Matte Black Headphones' is present on page 
+
+13-02-2024T07:40:19 - [TEST_STEP][PASSED] - break: null
+
+13-02-2024T07:40:19 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+13-02-2024T07:40:20 - [MESSAGE][PASSED] - Browser is closed
+
+13-02-2024T07:40:22 - [TEST_STEP][PASSED] - Video: Video recording for test case 'Test Cases/Search Item 01 - Item Found' .
+
+13-02-2024T07:40:22 - [MESSAGE][INFO] - Video recording for test case 'Test Cases/Search Item 01 - Item Found' .]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Search Item 01 - Item Found" time="34.736" classname="Test Cases/Search Item 01 - Item Found" status="PASSED">
+         <system-out><![CDATA[13-02-2024T07:40:22 - [TEST_CASE][PASSED] - Test Cases/Search Item 01 - Item Found: Test Cases/Search Item 01 - Item Found
+
+13-02-2024T07:40:22 - [TEST_STEP][PASSED] - randomNumber = customKeywords.randomGenerator.generateRandomNumber(): customKeywords.randomGenerator.generateRandomNumber is PASSED
+
+13-02-2024T07:40:22 - [MESSAGE][PASSED] - customKeywords.randomGenerator.generateRandomNumber is PASSED
+
+13-02-2024T07:40:22 - [TEST_STEP][PASSED] - println(randomNumber): null
+
+13-02-2024T07:40:22 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+13-02-2024T07:40:22 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+13-02-2024T07:40:22 - [MESSAGE][INFO] - User set preference: ['args', '[--start-maximized]']
+
+13-02-2024T07:40:22 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+13-02-2024T07:40:23 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+13-02-2024T07:40:23 - [TEST_STEP][PASSED] - navigateToUrl("https://advantageonlineshopping.com/#/"): Navigate to 'https://advantageonlineshopping.com/#/' successfully
+
+13-02-2024T07:40:25 - [MESSAGE][PASSED] - Navigate to 'https://advantageonlineshopping.com/#/' successfully
+
+13-02-2024T07:40:25 - [TEST_STEP][PASSED] - click(findTestObject("Spy/Homepage/Page_Advantage Shopping/searchIcon")): Object: 'Object Repository/Spy/Homepage/Page_Advantage Shopping/searchIcon' is clicked on
+
+13-02-2024T07:40:33 - [MESSAGE][PASSED] - Object: 'Object Repository/Spy/Homepage/Page_Advantage Shopping/searchIcon' is clicked on
+
+13-02-2024T07:40:33 - [TEST_STEP][PASSED] - switch (randomNumber): null
+
+13-02-2024T07:40:33 - [TEST_STEP][PASSED] - case 2:: null
+
+13-02-2024T07:40:33 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Record/Search Item/Page_Advantage Shopping/input_Sign out_autoComplete"), "Logitech G"): Text 'Logitech G' is set on object 'Object Repository/Record/Search Item/Page_Advantage Shopping/input_Sign out_autoComplete'
+
+13-02-2024T07:40:36 - [MESSAGE][PASSED] - Text 'Logitech G' is set on object 'Object Repository/Record/Search Item/Page_Advantage Shopping/input_Sign out_autoComplete'
+
+13-02-2024T07:40:36 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Object Repository/Record/Search Item/Page_Advantage Shopping/input_Sign out_autoComplete"), Keys.chord(ENTER)): Keys 'ENTER + ' sent to object: 'Object Repository/Record/Search Item/Page_Advantage Shopping/input_Sign out_autoComplete'
+
+13-02-2024T07:40:53 - [MESSAGE][PASSED] - Keys 'ENTER + ' sent to object: 'Object Repository/Record/Search Item/Page_Advantage Shopping/input_Sign out_autoComplete'
+
+13-02-2024T07:40:53 - [TEST_STEP][PASSED] - verifyTextPresent("Logitech G502 Proteus Core", false): Text 'Logitech G502 Proteus Core' is present on page 
+
+13-02-2024T07:40:54 - [MESSAGE][PASSED] - Text 'Logitech G502 Proteus Core' is present on page 
+
+13-02-2024T07:40:54 - [TEST_STEP][PASSED] - break: null
+
+13-02-2024T07:40:54 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+13-02-2024T07:40:54 - [MESSAGE][PASSED] - Browser is closed
+
+13-02-2024T07:40:57 - [TEST_STEP][PASSED] - Video: Video recording for test case 'Test Cases/Search Item 01 - Item Found' .
+
+13-02-2024T07:40:57 - [MESSAGE][INFO] - Video recording for test case 'Test Cases/Search Item 01 - Item Found' .]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Search Item 02 - Item Not Found" time="31.946" classname="Test Cases/Search Item 02 - Item Not Found" status="PASSED">
+         <system-out><![CDATA[13-02-2024T07:40:57 - [TEST_CASE][PASSED] - Test Cases/Search Item 02 - Item Not Found: Test Cases/Search Item 02 - Item Not Found
+
+13-02-2024T07:40:57 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+13-02-2024T07:40:57 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+13-02-2024T07:40:57 - [MESSAGE][INFO] - User set preference: ['args', '[--start-maximized]']
+
+13-02-2024T07:40:57 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+13-02-2024T07:40:58 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+13-02-2024T07:40:58 - [TEST_STEP][PASSED] - navigateToUrl("https://advantageonlineshopping.com/#/"): Navigate to 'https://advantageonlineshopping.com/#/' successfully
+
+13-02-2024T07:41:01 - [MESSAGE][PASSED] - Navigate to 'https://advantageonlineshopping.com/#/' successfully
+
+13-02-2024T07:41:01 - [TEST_STEP][PASSED] - click(findTestObject("Spy/Homepage/Page_Advantage Shopping/searchIcon")): Object: 'Object Repository/Spy/Homepage/Page_Advantage Shopping/searchIcon' is clicked on
+
+13-02-2024T07:41:07 - [MESSAGE][PASSED] - Object: 'Object Repository/Spy/Homepage/Page_Advantage Shopping/searchIcon' is clicked on
+
+13-02-2024T07:41:07 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Record/Search Item/Page_Advantage Shopping/input_Sign out_autoComplete"), "Motorolla"): Text 'Motorolla' is set on object 'Object Repository/Record/Search Item/Page_Advantage Shopping/input_Sign out_autoComplete'
+
+13-02-2024T07:41:10 - [MESSAGE][PASSED] - Text 'Motorolla' is set on object 'Object Repository/Record/Search Item/Page_Advantage Shopping/input_Sign out_autoComplete'
+
+13-02-2024T07:41:10 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Object Repository/Record/Search Item/Page_Advantage Shopping/input_Sign out_autoComplete"), Keys.chord(ENTER)): Keys 'ENTER + ' sent to object: 'Object Repository/Record/Search Item/Page_Advantage Shopping/input_Sign out_autoComplete'
+
+13-02-2024T07:41:25 - [MESSAGE][PASSED] - Keys 'ENTER + ' sent to object: 'Object Repository/Record/Search Item/Page_Advantage Shopping/input_Sign out_autoComplete'
+
+13-02-2024T07:41:25 - [TEST_STEP][PASSED] - verifyTextPresent("No results for "Motorolla"", false): Text 'No results for "Motorolla"' is present on page 
+
+13-02-2024T07:41:26 - [MESSAGE][PASSED] - Text 'No results for "Motorolla"' is present on page 
+
+13-02-2024T07:41:26 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+13-02-2024T07:41:26 - [MESSAGE][PASSED] - Browser is closed
+
+13-02-2024T07:41:28 - [TEST_STEP][PASSED] - Video: Video recording for test case 'Test Cases/Search Item 02 - Item Not Found' .
+
+13-02-2024T07:41:28 - [MESSAGE][INFO] - Video recording for test case 'Test Cases/Search Item 02 - Item Not Found' .]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[13-02-2024T07:39:23 - [TEST_SUITE][PASSED] - Search Item: Test Cases/Search Item 02 - Item Not Found]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>
