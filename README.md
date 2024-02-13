@@ -12,6 +12,6 @@ This is a project for Website Testing using Katalon Automated Testing. It featur
 - Failed Case with Invalid Input
 - Failed Case with Input Already Registered
 
-  ### Search Item
-  - Success Case with Randomized Search Every Run
-  - Failed Case with No Matching Item Searched
+### Search Item
+- Success Case with Randomized Search Every Run
+- Failed Case with No Matching Item Searched
