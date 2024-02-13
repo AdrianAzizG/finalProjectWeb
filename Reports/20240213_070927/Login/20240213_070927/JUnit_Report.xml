@@ -1,0 +1,237 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Login" time="175.906" tests="4" failures="0" errors="0">
+   <testsuite name="Login" tests="4" failures="0" errors="0" time="175.906" skipped="0" timestamp="13-02-2024T07:09:31" hostname="aziz_ - AspireVeroA2G" id="Test Suites/Login">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\aziz_\\git\\finalProjectWeb\\Reports\\20240213_070927\\Login\\20240213_070927"/>
+         <property name="logFiles" value="C:\\Users\\aziz_\\git\\finalProjectWeb\\Reports\\20240213_070927\\Login\\20240213_070927\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="aziz_ - AspireVeroA2G"/>
+         <property name="os" value="Windows 11 64bit"/>
+         <property name="katalonVersion" value="9.3.0.212"/>
+         <property name="browser" value="Chrome 121.0.0.0"/>
+         <property name="hostAddress" value="192.168.50.239"/>
+         <property name="sessionId" value="29e0d236c7c13ec2bb41eae480f91780"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 11"/>
+      </properties>
+      <testcase name="Test Cases/Login 01 - Sukses" time="53.623" classname="Test Cases/Login 01 - Sukses" status="PASSED">
+         <system-out><![CDATA[13-02-2024T07:09:31 - [TEST_CASE][PASSED] - Test Cases/Login 01 - Sukses: Test Cases/Login 01 - Sukses
+
+13-02-2024T07:09:31 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+13-02-2024T07:09:32 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+13-02-2024T07:09:32 - [MESSAGE][INFO] - User set preference: ['args', '[--start-maximized]']
+
+13-02-2024T07:09:32 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+13-02-2024T07:09:33 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+13-02-2024T07:09:33 - [TEST_STEP][PASSED] - navigateToUrl("https://advantageonlineshopping.com/#/"): Navigate to 'https://advantageonlineshopping.com/#/' successfully
+
+13-02-2024T07:09:38 - [MESSAGE][PASSED] - Navigate to 'https://advantageonlineshopping.com/#/' successfully
+
+13-02-2024T07:09:38 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Record/Login/Page_Advantage Shopping/svg_CHECKOUT  (0.00)_menuUser")): Object: 'Object Repository/Record/Login/Page_Advantage Shopping/svg_CHECKOUT  (0.00)_menuUser' is clicked on
+
+13-02-2024T07:09:43 - [MESSAGE][PASSED] - Object: 'Object Repository/Record/Login/Page_Advantage Shopping/svg_CHECKOUT  (0.00)_menuUser' is clicked on
+
+13-02-2024T07:09:43 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Record/Login/Page_Advantage Shopping/input_OR_username"), username): Text 'khalim' is set on object 'Object Repository/Record/Login/Page_Advantage Shopping/input_OR_username'
+
+13-02-2024T07:09:46 - [MESSAGE][PASSED] - Text 'khalim' is set on object 'Object Repository/Record/Login/Page_Advantage Shopping/input_OR_username'
+
+13-02-2024T07:09:46 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Record/Login/Page_Advantage Shopping/input_Username_password"), password): Text ****** has been set on object 'Object Repository/Record/Login/Page_Advantage Shopping/input_Username_password'
+
+13-02-2024T07:09:47 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Record/Login/Page_Advantage Shopping/input_Username_password'
+
+13-02-2024T07:09:47 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Record/Login/Page_Advantage Shopping/button_SIGN IN")): Object: 'Object Repository/Record/Login/Page_Advantage Shopping/button_SIGN IN' is clicked on
+
+13-02-2024T07:10:19 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: '. Please recheck the objects properties to make sure the desired element is located. 
+
+13-02-2024T07:10:19 - [MESSAGE][WARNING] - [SELF-HEALING] Failed to find element with id 'Object Repository/Record/Login/Page_Advantage Shopping/button_SIGN IN'. Try using Self-healing.
+
+13-02-2024T07:10:19 - [MESSAGE][INFO] - [SELF-HEALING] Working Locator: '//button[@id='sign_in_btn']'.
+
+13-02-2024T07:10:20 - [MESSAGE][INFO] - [SELF-HEALING] Screenshot: C:/Users/aziz_/git/finalProjectWeb/Reports/Self-healing/Object Repository/Record/Login/Page_Advantage Shopping/button_SIGN IN_attributes.png
+
+13-02-2024T07:10:20 - [MESSAGE][WARNING] - [SELF-HEALING] The current locator of test object 'Object Repository/Record/Login/Page_Advantage Shopping/button_SIGN IN' was broken. Propose an alternative one: '//button[@id='sign_in_btn']'.
+
+13-02-2024T07:10:20 - [MESSAGE][PASSED] - Object: 'Object Repository/Record/Login/Page_Advantage Shopping/button_SIGN IN' is clicked on
+
+13-02-2024T07:10:20 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Object Repository/Record/Login/Page_Advantage Shopping/span_testname"), username): Actual text and expected text of test object 'Object Repository/Record/Login/Page_Advantage Shopping/span_testname' are matched.
+
+13-02-2024T07:10:21 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Record/Login/Page_Advantage Shopping/span_testname' are matched.
+
+13-02-2024T07:10:21 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+13-02-2024T07:10:22 - [MESSAGE][PASSED] - Browser is closed
+
+13-02-2024T07:10:24 - [TEST_STEP][PASSED] - Video: Video recording for test case 'Test Cases/Login 01 - Sukses' .
+
+13-02-2024T07:10:24 - [MESSAGE][INFO] - Video recording for test case 'Test Cases/Login 01 - Sukses' .]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Login 01 - Sukses" time="49.908" classname="Test Cases/Login 01 - Sukses" status="PASSED">
+         <system-out><![CDATA[13-02-2024T07:10:25 - [TEST_CASE][PASSED] - Test Cases/Login 01 - Sukses: Test Cases/Login 01 - Sukses
+
+13-02-2024T07:10:25 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+13-02-2024T07:10:25 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+13-02-2024T07:10:25 - [MESSAGE][INFO] - User set preference: ['args', '[--start-maximized]']
+
+13-02-2024T07:10:25 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+13-02-2024T07:10:26 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+13-02-2024T07:10:26 - [TEST_STEP][PASSED] - navigateToUrl("https://advantageonlineshopping.com/#/"): Navigate to 'https://advantageonlineshopping.com/#/' successfully
+
+13-02-2024T07:10:27 - [MESSAGE][PASSED] - Navigate to 'https://advantageonlineshopping.com/#/' successfully
+
+13-02-2024T07:10:27 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Record/Login/Page_Advantage Shopping/svg_CHECKOUT  (0.00)_menuUser")): Object: 'Object Repository/Record/Login/Page_Advantage Shopping/svg_CHECKOUT  (0.00)_menuUser' is clicked on
+
+13-02-2024T07:10:36 - [MESSAGE][PASSED] - Object: 'Object Repository/Record/Login/Page_Advantage Shopping/svg_CHECKOUT  (0.00)_menuUser' is clicked on
+
+13-02-2024T07:10:36 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Record/Login/Page_Advantage Shopping/input_OR_username"), username): Text 'intany' is set on object 'Object Repository/Record/Login/Page_Advantage Shopping/input_OR_username'
+
+13-02-2024T07:10:37 - [MESSAGE][PASSED] - Text 'intany' is set on object 'Object Repository/Record/Login/Page_Advantage Shopping/input_OR_username'
+
+13-02-2024T07:10:37 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Record/Login/Page_Advantage Shopping/input_Username_password"), password): Text ****** has been set on object 'Object Repository/Record/Login/Page_Advantage Shopping/input_Username_password'
+
+13-02-2024T07:10:39 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Record/Login/Page_Advantage Shopping/input_Username_password'
+
+13-02-2024T07:10:39 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Record/Login/Page_Advantage Shopping/button_SIGN IN")): Object: 'Object Repository/Record/Login/Page_Advantage Shopping/button_SIGN IN' is clicked on
+
+13-02-2024T07:11:10 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: '. Please recheck the objects properties to make sure the desired element is located. 
+
+13-02-2024T07:11:10 - [MESSAGE][WARNING] - [SELF-HEALING] Failed to find element with id 'Object Repository/Record/Login/Page_Advantage Shopping/button_SIGN IN'. Try using Self-healing.
+
+13-02-2024T07:11:10 - [MESSAGE][WARNING] - [SELF-HEALING] The current locator of test object 'Object Repository/Record/Login/Page_Advantage Shopping/button_SIGN IN' was broken. Propose an alternative one: '//button[@id='sign_in_btn']'.
+
+13-02-2024T07:11:11 - [MESSAGE][PASSED] - Object: 'Object Repository/Record/Login/Page_Advantage Shopping/button_SIGN IN' is clicked on
+
+13-02-2024T07:11:11 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Object Repository/Record/Login/Page_Advantage Shopping/span_testname"), username): Actual text and expected text of test object 'Object Repository/Record/Login/Page_Advantage Shopping/span_testname' are matched.
+
+13-02-2024T07:11:12 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Record/Login/Page_Advantage Shopping/span_testname' are matched.
+
+13-02-2024T07:11:12 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+13-02-2024T07:11:12 - [MESSAGE][PASSED] - Browser is closed
+
+13-02-2024T07:11:14 - [TEST_STEP][PASSED] - Video: Video recording for test case 'Test Cases/Login 01 - Sukses' .
+
+13-02-2024T07:11:14 - [MESSAGE][INFO] - Video recording for test case 'Test Cases/Login 01 - Sukses' .]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Login 01 - Sukses" time="45.319" classname="Test Cases/Login 01 - Sukses" status="PASSED">
+         <system-out><![CDATA[13-02-2024T07:11:14 - [TEST_CASE][PASSED] - Test Cases/Login 01 - Sukses: Test Cases/Login 01 - Sukses
+
+13-02-2024T07:11:14 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+13-02-2024T07:11:14 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+13-02-2024T07:11:14 - [MESSAGE][INFO] - User set preference: ['args', '[--start-maximized]']
+
+13-02-2024T07:11:15 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+13-02-2024T07:11:15 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+13-02-2024T07:11:15 - [TEST_STEP][PASSED] - navigateToUrl("https://advantageonlineshopping.com/#/"): Navigate to 'https://advantageonlineshopping.com/#/' successfully
+
+13-02-2024T07:11:17 - [MESSAGE][PASSED] - Navigate to 'https://advantageonlineshopping.com/#/' successfully
+
+13-02-2024T07:11:17 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Record/Login/Page_Advantage Shopping/svg_CHECKOUT  (0.00)_menuUser")): Object: 'Object Repository/Record/Login/Page_Advantage Shopping/svg_CHECKOUT  (0.00)_menuUser' is clicked on
+
+13-02-2024T07:11:19 - [MESSAGE][PASSED] - Object: 'Object Repository/Record/Login/Page_Advantage Shopping/svg_CHECKOUT  (0.00)_menuUser' is clicked on
+
+13-02-2024T07:11:19 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Record/Login/Page_Advantage Shopping/input_OR_username"), username): Text 'emasgold' is set on object 'Object Repository/Record/Login/Page_Advantage Shopping/input_OR_username'
+
+13-02-2024T07:11:22 - [MESSAGE][PASSED] - Text 'emasgold' is set on object 'Object Repository/Record/Login/Page_Advantage Shopping/input_OR_username'
+
+13-02-2024T07:11:22 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Record/Login/Page_Advantage Shopping/input_Username_password"), password): Text ****** has been set on object 'Object Repository/Record/Login/Page_Advantage Shopping/input_Username_password'
+
+13-02-2024T07:11:23 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Record/Login/Page_Advantage Shopping/input_Username_password'
+
+13-02-2024T07:11:23 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Record/Login/Page_Advantage Shopping/button_SIGN IN")): Object: 'Object Repository/Record/Login/Page_Advantage Shopping/button_SIGN IN' is clicked on
+
+13-02-2024T07:11:54 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: '. Please recheck the objects properties to make sure the desired element is located. 
+
+13-02-2024T07:11:54 - [MESSAGE][WARNING] - [SELF-HEALING] Failed to find element with id 'Object Repository/Record/Login/Page_Advantage Shopping/button_SIGN IN'. Try using Self-healing.
+
+13-02-2024T07:11:55 - [MESSAGE][WARNING] - [SELF-HEALING] The current locator of test object 'Object Repository/Record/Login/Page_Advantage Shopping/button_SIGN IN' was broken. Propose an alternative one: '//button[@id='sign_in_btn']'.
+
+13-02-2024T07:11:55 - [MESSAGE][PASSED] - Object: 'Object Repository/Record/Login/Page_Advantage Shopping/button_SIGN IN' is clicked on
+
+13-02-2024T07:11:55 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Object Repository/Record/Login/Page_Advantage Shopping/span_testname"), username): Actual text and expected text of test object 'Object Repository/Record/Login/Page_Advantage Shopping/span_testname' are matched.
+
+13-02-2024T07:11:57 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Record/Login/Page_Advantage Shopping/span_testname' are matched.
+
+13-02-2024T07:11:57 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+13-02-2024T07:11:58 - [MESSAGE][PASSED] - Browser is closed
+
+13-02-2024T07:12:00 - [TEST_STEP][PASSED] - Video: Video recording for test case 'Test Cases/Login 01 - Sukses' .
+
+13-02-2024T07:12:00 - [MESSAGE][INFO] - Video recording for test case 'Test Cases/Login 01 - Sukses' .]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Login 02 - Gagal" time="26.694" classname="Test Cases/Login 02 - Gagal" status="PASSED">
+         <system-out><![CDATA[13-02-2024T07:12:00 - [TEST_CASE][PASSED] - Test Cases/Login 02 - Gagal: Test Cases/Login 02 - Gagal
+
+13-02-2024T07:12:00 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+13-02-2024T07:12:00 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+13-02-2024T07:12:00 - [MESSAGE][INFO] - User set preference: ['args', '[--start-maximized]']
+
+13-02-2024T07:12:00 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+13-02-2024T07:12:01 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+13-02-2024T07:12:01 - [TEST_STEP][PASSED] - navigateToUrl("https://advantageonlineshopping.com/#/"): Navigate to 'https://advantageonlineshopping.com/#/' successfully
+
+13-02-2024T07:12:05 - [MESSAGE][PASSED] - Navigate to 'https://advantageonlineshopping.com/#/' successfully
+
+13-02-2024T07:12:05 - [TEST_STEP][PASSED] - click(findTestObject("Spy/Homepage/Page_Advantage Shopping/userIcon")): Object: 'Object Repository/Spy/Homepage/Page_Advantage Shopping/userIcon' is clicked on
+
+13-02-2024T07:12:12 - [MESSAGE][PASSED] - Object: 'Object Repository/Spy/Homepage/Page_Advantage Shopping/userIcon' is clicked on
+
+13-02-2024T07:12:12 - [TEST_STEP][PASSED] - delay(4): Delayed 4 second(s)
+
+13-02-2024T07:12:16 - [MESSAGE][PASSED] - Delayed 4 second(s)
+
+13-02-2024T07:12:16 - [TEST_STEP][PASSED] - setText(findTestObject("Spy/Homepage/Page_Advantage Shopping/usernameInput"), username): Text 'failuser' is set on object 'Object Repository/Spy/Homepage/Page_Advantage Shopping/usernameInput'
+
+13-02-2024T07:12:17 - [MESSAGE][PASSED] - Text 'failuser' is set on object 'Object Repository/Spy/Homepage/Page_Advantage Shopping/usernameInput'
+
+13-02-2024T07:12:17 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Spy/Homepage/Page_Advantage Shopping/passwordInput"), password): Text ****** has been set on object 'Object Repository/Spy/Homepage/Page_Advantage Shopping/passwordInput'
+
+13-02-2024T07:12:18 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Spy/Homepage/Page_Advantage Shopping/passwordInput'
+
+13-02-2024T07:12:18 - [TEST_STEP][PASSED] - click(findTestObject("Spy/Homepage/Page_Advantage Shopping/signInButton")): Object: 'Object Repository/Spy/Homepage/Page_Advantage Shopping/signInButton' is clicked on
+
+13-02-2024T07:12:19 - [MESSAGE][PASSED] - Object: 'Object Repository/Spy/Homepage/Page_Advantage Shopping/signInButton' is clicked on
+
+13-02-2024T07:12:19 - [TEST_STEP][PASSED] - verifyTextPresent("Incorrect user name or password.", false): Text 'Incorrect user name or password.' is present on page 
+
+13-02-2024T07:12:20 - [MESSAGE][PASSED] - Text 'Incorrect user name or password.' is present on page 
+
+13-02-2024T07:12:20 - [TEST_STEP][PASSED] - delay(4): Delayed 4 second(s)
+
+13-02-2024T07:12:24 - [MESSAGE][PASSED] - Delayed 4 second(s)
+
+13-02-2024T07:12:24 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+13-02-2024T07:12:24 - [MESSAGE][PASSED] - Browser is closed
+
+13-02-2024T07:12:26 - [TEST_STEP][PASSED] - Video: Video recording for test case 'Test Cases/Login 02 - Gagal' .
+
+13-02-2024T07:12:26 - [MESSAGE][INFO] - Video recording for test case 'Test Cases/Login 02 - Gagal' .]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[13-02-2024T07:09:31 - [TEST_SUITE][PASSED] - Login: Test Cases/Login 02 - Gagal]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

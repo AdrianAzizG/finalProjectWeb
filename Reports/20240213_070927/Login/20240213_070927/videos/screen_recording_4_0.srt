@@ -1,0 +1,40 @@
+1
+00:00:00,084 --> 00:00:01,054
+1. openBrowser("")
+
+2
+00:00:01,056 --> 00:00:04,880
+5. navigateToUrl("https://advantageonlineshopping.com/#/")
+
+3
+00:00:04,881 --> 00:00:11,695
+9. click(findTestObject("Spy/Homepage/Page_Advantage Shopping/userIcon"))
+
+4
+00:00:11,697 --> 00:00:15,994
+13. delay(4)
+
+5
+00:00:15,997 --> 00:00:16,855
+17. setText(findTestObject("Spy/Homepage/Page_Advantage Shopping/usernameInput"), username)
+
+6
+00:00:16,856 --> 00:00:18,284
+21. setEncryptedText(findTestObject("Spy/Homepage/Page_Advantage Shopping/passwordInput"), password)
+
+7
+00:00:18,285 --> 00:00:18,854
+25. click(findTestObject("Spy/Homepage/Page_Advantage Shopping/signInButton"))
+
+8
+00:00:18,856 --> 00:00:19,974
+29. verifyTextPresent("Incorrect user name or password.", false)
+
+9
+00:00:19,975 --> 00:00:24,000
+33. delay(4)
+
+10
+00:00:24,002 --> 00:00:24,456
+37. closeBrowser()
+

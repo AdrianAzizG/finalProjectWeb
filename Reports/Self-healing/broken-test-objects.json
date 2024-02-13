@@ -29,6 +29,16 @@
       "proposedLocatorMethod": "BASIC",
       "recoveryMethod": "BASIC",
       "pathToScreenshot": "Reports/Self-healing/Object Repository/Spy/Homepage/Page_Advantage Shopping/searchIcon_BASIC.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Record/Login/Page_Advantage Shopping/button_SIGN IN",
+      "brokenLocator": "",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//button[@id\u003d\u0027sign_in_btn\u0027]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/Record/Login/Page_Advantage Shopping/button_SIGN IN_attributes.png"
     }
   ]
 }

@@ -1,0 +1,32 @@
+1
+00:00:00,002 --> 00:00:00,945
+1. openBrowser("")
+
+2
+00:00:00,946 --> 00:00:02,916
+5. navigateToUrl("https://advantageonlineshopping.com/#/")
+
+3
+00:00:02,918 --> 00:00:04,870
+9. click(findTestObject("Object Repository/Record/Login/Page_Advantage Shopping/svg_CHECKOUT  (0.00)_menuUser"))
+
+4
+00:00:04,872 --> 00:00:07,091
+13. setText(findTestObject("Object Repository/Record/Login/Page_Advantage Shopping/input_OR_username"), username)
+
+5
+00:00:07,094 --> 00:00:08,577
+17. setEncryptedText(findTestObject("Object Repository/Record/Login/Page_Advantage Shopping/input_Username_password"), password)
+
+6
+00:00:08,580 --> 00:00:40,565
+21. click(findTestObject("Object Repository/Record/Login/Page_Advantage Shopping/button_SIGN IN"))
+
+7
+00:00:40,566 --> 00:00:42,269
+25. verifyElementText(findTestObject("Object Repository/Record/Login/Page_Advantage Shopping/span_testname"), username)
+
+8
+00:00:42,271 --> 00:00:43,176
+29. closeBrowser()
+
