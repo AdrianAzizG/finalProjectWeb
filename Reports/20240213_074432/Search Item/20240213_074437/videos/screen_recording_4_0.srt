@@ -1,0 +1,28 @@
+1
+00:00:00,240 --> 00:00:01,113
+1. openBrowser("")
+
+2
+00:00:01,114 --> 00:00:02,268
+5. navigateToUrl("https://advantageonlineshopping.com/#/")
+
+3
+00:00:02,269 --> 00:00:11,378
+9. click(findTestObject("Spy/Homepage/Page_Advantage Shopping/searchIcon"))
+
+4
+00:00:11,379 --> 00:00:12,612
+13. setText(findTestObject("Object Repository/Record/Search Item/Page_Advantage Shopping/input_Sign out_autoComplete"), "Motorolla")
+
+5
+00:00:12,613 --> 00:00:27,246
+17. sendKeys(findTestObject("Object Repository/Record/Search Item/Page_Advantage Shopping/input_Sign out_autoComplete"), Keys.chord(ENTER))
+
+6
+00:00:27,249 --> 00:00:28,097
+21. verifyTextPresent("No results for "Motorolla"", false)
+
+7
+00:00:28,098 --> 00:00:28,503
+25. closeBrowser()
+

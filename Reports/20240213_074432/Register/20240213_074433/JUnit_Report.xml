@@ -1,0 +1,499 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Register" time="293.612" tests="5" failures="0" errors="0">
+   <testsuite name="Register" tests="5" failures="0" errors="0" time="293.612" skipped="0" timestamp="13-02-2024T07:44:42" hostname="aziz_ - AspireVeroA2G" id="Test Suites/Register">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\aziz_\\git\\finalProjectWeb\\Reports\\20240213_074432\\Register\\20240213_074433"/>
+         <property name="logFiles" value="C:\\Users\\aziz_\\git\\finalProjectWeb\\Reports\\20240213_074432\\Register\\20240213_074433\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="aziz_ - AspireVeroA2G"/>
+         <property name="os" value="Windows 11 64bit"/>
+         <property name="katalonVersion" value="9.3.0.212"/>
+         <property name="browser" value="Chrome 121.0.0.0"/>
+         <property name="hostAddress" value="172.16.213.227"/>
+         <property name="sessionId" value="9178c9d3bf3f60c71fb17f39ae2424b1"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 11"/>
+      </properties>
+      <testcase name="Test Cases/Register 01 - Sukses" time="80.249" classname="Test Cases/Register 01 - Sukses" status="PASSED">
+         <system-out><![CDATA[13-02-2024T07:44:43 - [TEST_CASE][PASSED] - Test Cases/Register 01 - Sukses: Test Cases/Register 01 - Sukses
+
+13-02-2024T07:44:43 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+13-02-2024T07:44:44 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+13-02-2024T07:44:44 - [MESSAGE][INFO] - User set preference: ['args', '[--start-maximized]']
+
+13-02-2024T07:44:44 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+13-02-2024T07:44:45 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+13-02-2024T07:44:45 - [TEST_STEP][PASSED] - navigateToUrl(url): Navigate to 'https://advantageonlineshopping.com/#/' successfully
+
+13-02-2024T07:44:49 - [MESSAGE][PASSED] - Navigate to 'https://advantageonlineshopping.com/#/' successfully
+
+13-02-2024T07:44:49 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Record/Register/Page_Advantage Shopping/svg_CHECKOUT  (0.00)_menuUser")): Object: 'Object Repository/Record/Register/Page_Advantage Shopping/svg_CHECKOUT  (0.00)_menuUser' is clicked on
+
+13-02-2024T07:44:53 - [MESSAGE][PASSED] - Object: 'Object Repository/Record/Register/Page_Advantage Shopping/svg_CHECKOUT  (0.00)_menuUser' is clicked on
+
+13-02-2024T07:44:53 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+13-02-2024T07:44:57 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+13-02-2024T07:44:57 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Record/Register/Page_Advantage Shopping/a_CREATE NEW ACCOUNT")): Object: 'Object Repository/Record/Register/Page_Advantage Shopping/a_CREATE NEW ACCOUNT' is clicked on
+
+13-02-2024T07:44:58 - [MESSAGE][PASSED] - Object: 'Object Repository/Record/Register/Page_Advantage Shopping/a_CREATE NEW ACCOUNT' is clicked on
+
+13-02-2024T07:44:58 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Record/Register/Page_Advantage Shopping/input__usernameRegisterPage"), username): Text 'khalim' is set on object 'Object Repository/Record/Register/Page_Advantage Shopping/input__usernameRegisterPage'
+
+13-02-2024T07:45:00 - [MESSAGE][PASSED] - Text 'khalim' is set on object 'Object Repository/Record/Register/Page_Advantage Shopping/input__usernameRegisterPage'
+
+13-02-2024T07:45:00 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Record/Register/Page_Advantage Shopping/input__emailRegisterPage"), email): Text 'khalim@mail.com' is set on object 'Object Repository/Record/Register/Page_Advantage Shopping/input__emailRegisterPage'
+
+13-02-2024T07:45:01 - [MESSAGE][PASSED] - Text 'khalim@mail.com' is set on object 'Object Repository/Record/Register/Page_Advantage Shopping/input__emailRegisterPage'
+
+13-02-2024T07:45:01 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Record/Register/Page_Advantage Shopping/input__passwordRegisterPage"), password): Text ****** has been set on object 'Object Repository/Record/Register/Page_Advantage Shopping/input__passwordRegisterPage'
+
+13-02-2024T07:45:03 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Record/Register/Page_Advantage Shopping/input__passwordRegisterPage'
+
+13-02-2024T07:45:03 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Record/Register/Page_Advantage Shopping/input__confirm_passwordRegisterPage"), password): Text ****** has been set on object 'Object Repository/Record/Register/Page_Advantage Shopping/input__confirm_passwordRegisterPage'
+
+13-02-2024T07:45:04 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Record/Register/Page_Advantage Shopping/input__confirm_passwordRegisterPage'
+
+13-02-2024T07:45:04 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Record/Register/Page_Advantage Shopping/input_PERSONAL DETAILS_first_nameRegisterPage"), firstName): Text 'Kurnia' is set on object 'Object Repository/Record/Register/Page_Advantage Shopping/input_PERSONAL DETAILS_first_nameRegisterPage'
+
+13-02-2024T07:45:05 - [MESSAGE][PASSED] - Text 'Kurnia' is set on object 'Object Repository/Record/Register/Page_Advantage Shopping/input_PERSONAL DETAILS_first_nameRegisterPage'
+
+13-02-2024T07:45:05 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Record/Register/Page_Advantage Shopping/input_- Use maximum 30 character_last_nameR_6ef033"), lastName): Text 'Halim' is set on object 'Object Repository/Record/Register/Page_Advantage Shopping/input_- Use maximum 30 character_last_nameR_6ef033'
+
+13-02-2024T07:45:07 - [MESSAGE][PASSED] - Text 'Halim' is set on object 'Object Repository/Record/Register/Page_Advantage Shopping/input_- Use maximum 30 character_last_nameR_6ef033'
+
+13-02-2024T07:45:07 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Record/Register/Page_Advantage Shopping/input_- Use maximum 30 character_phone_numb_7c938a"), phoneNumber): Text '081110101919' is set on object 'Object Repository/Record/Register/Page_Advantage Shopping/input_- Use maximum 30 character_phone_numb_7c938a'
+
+13-02-2024T07:45:08 - [MESSAGE][PASSED] - Text '081110101919' is set on object 'Object Repository/Record/Register/Page_Advantage Shopping/input_- Use maximum 30 character_phone_numb_7c938a'
+
+13-02-2024T07:45:08 - [TEST_STEP][PASSED] - selectOptionByLabel(findTestObject("Object Repository/Record/Register/Page_Advantage Shopping/select_AfganistanAlbaniaAlgeriaAmerican Sam_3cef8a"), country, true): All options with label 'Indonesia' are selected in object 'Object Repository/Record/Register/Page_Advantage Shopping/select_AfganistanAlbaniaAlgeriaAmerican Sam_3cef8a'  using regular expression
+
+13-02-2024T07:45:17 - [MESSAGE][PASSED] - All options with label 'Indonesia' are selected in object 'Object Repository/Record/Register/Page_Advantage Shopping/select_AfganistanAlbaniaAlgeriaAmerican Sam_3cef8a'  using regular expression
+
+13-02-2024T07:45:17 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Record/Register/Page_Advantage Shopping/input_Country_cityRegisterPage"), city): Text 'Jawa Barat' is set on object 'Object Repository/Record/Register/Page_Advantage Shopping/input_Country_cityRegisterPage'
+
+13-02-2024T07:45:18 - [MESSAGE][PASSED] - Text 'Jawa Barat' is set on object 'Object Repository/Record/Register/Page_Advantage Shopping/input_Country_cityRegisterPage'
+
+13-02-2024T07:45:18 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Record/Register/Page_Advantage Shopping/input_- Use maximum 25 character_addressReg_9e23b3"), address): Text 'Jalan Raya Cibubur' is set on object 'Object Repository/Record/Register/Page_Advantage Shopping/input_- Use maximum 25 character_addressReg_9e23b3'
+
+13-02-2024T07:45:20 - [MESSAGE][PASSED] - Text 'Jalan Raya Cibubur' is set on object 'Object Repository/Record/Register/Page_Advantage Shopping/input_- Use maximum 25 character_addressReg_9e23b3'
+
+13-02-2024T07:45:20 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Record/Register/Page_Advantage Shopping/input_- Use maximum 50 character_state__pro_272a54"), region): Text 'Bogor' is set on object 'Object Repository/Record/Register/Page_Advantage Shopping/input_- Use maximum 50 character_state__pro_272a54'
+
+13-02-2024T07:45:22 - [MESSAGE][PASSED] - Text 'Bogor' is set on object 'Object Repository/Record/Register/Page_Advantage Shopping/input_- Use maximum 50 character_state__pro_272a54'
+
+13-02-2024T07:45:22 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Record/Register/Page_Advantage Shopping/input_- Use maximum 10 character_postal_cod_639c2f"), postCode): Text '10982' is set on object 'Object Repository/Record/Register/Page_Advantage Shopping/input_- Use maximum 10 character_postal_cod_639c2f'
+
+13-02-2024T07:45:23 - [MESSAGE][PASSED] - Text '10982' is set on object 'Object Repository/Record/Register/Page_Advantage Shopping/input_- Use maximum 10 character_postal_cod_639c2f'
+
+13-02-2024T07:45:23 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Record/Register/Page_Advantage Shopping/input_Receive exclusive offers and promotio_5c7450")): Object: 'Object Repository/Record/Register/Page_Advantage Shopping/input_Receive exclusive offers and promotio_5c7450' is clicked on
+
+13-02-2024T07:45:24 - [MESSAGE][PASSED] - Object: 'Object Repository/Record/Register/Page_Advantage Shopping/input_Receive exclusive offers and promotio_5c7450' is clicked on
+
+13-02-2024T07:45:24 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Record/Register/Page_Advantage Shopping/button_REGISTER")): Object: 'Object Repository/Record/Register/Page_Advantage Shopping/button_REGISTER' is clicked on
+
+13-02-2024T07:45:25 - [MESSAGE][PASSED] - Object: 'Object Repository/Record/Register/Page_Advantage Shopping/button_REGISTER' is clicked on
+
+13-02-2024T07:45:25 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Object Repository/Record/Register/Page_Advantage Shopping/span_testname"), username): Actual text and expected text of test object 'Object Repository/Record/Register/Page_Advantage Shopping/span_testname' are matched.
+
+13-02-2024T07:45:56 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: '. Please recheck the objects properties to make sure the desired element is located. 
+
+13-02-2024T07:45:56 - [MESSAGE][WARNING] - [SELF-HEALING] Failed to find element with id 'Object Repository/Record/Register/Page_Advantage Shopping/span_testname'. Try using Self-healing.
+
+13-02-2024T07:45:56 - [MESSAGE][WARNING] - [SELF-HEALING] The current locator of test object 'Object Repository/Record/Register/Page_Advantage Shopping/span_testname' was broken. Propose an alternative one: '//a[@id='menuUserLink']/span'.
+
+13-02-2024T07:45:57 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Record/Register/Page_Advantage Shopping/span_testname' are matched.
+
+13-02-2024T07:45:57 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+13-02-2024T07:46:00 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+13-02-2024T07:46:00 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+13-02-2024T07:46:01 - [MESSAGE][PASSED] - Browser is closed
+
+13-02-2024T07:46:03 - [TEST_STEP][PASSED] - Video: Video recording for test case 'Test Cases/Register 01 - Sukses' .
+
+13-02-2024T07:46:03 - [MESSAGE][INFO] - Video recording for test case 'Test Cases/Register 01 - Sukses' .]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Register 01 - Sukses" time="77.896" classname="Test Cases/Register 01 - Sukses" status="PASSED">
+         <system-out><![CDATA[13-02-2024T07:46:03 - [TEST_CASE][PASSED] - Test Cases/Register 01 - Sukses: Test Cases/Register 01 - Sukses
+
+13-02-2024T07:46:03 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+13-02-2024T07:46:03 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+13-02-2024T07:46:03 - [MESSAGE][INFO] - User set preference: ['args', '[--start-maximized]']
+
+13-02-2024T07:46:03 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+13-02-2024T07:46:04 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+13-02-2024T07:46:04 - [TEST_STEP][PASSED] - navigateToUrl(url): Navigate to 'https://advantageonlineshopping.com/#/' successfully
+
+13-02-2024T07:46:06 - [MESSAGE][PASSED] - Navigate to 'https://advantageonlineshopping.com/#/' successfully
+
+13-02-2024T07:46:06 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Record/Register/Page_Advantage Shopping/svg_CHECKOUT  (0.00)_menuUser")): Object: 'Object Repository/Record/Register/Page_Advantage Shopping/svg_CHECKOUT  (0.00)_menuUser' is clicked on
+
+13-02-2024T07:46:14 - [MESSAGE][PASSED] - Object: 'Object Repository/Record/Register/Page_Advantage Shopping/svg_CHECKOUT  (0.00)_menuUser' is clicked on
+
+13-02-2024T07:46:14 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+13-02-2024T07:46:17 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+13-02-2024T07:46:17 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Record/Register/Page_Advantage Shopping/a_CREATE NEW ACCOUNT")): Object: 'Object Repository/Record/Register/Page_Advantage Shopping/a_CREATE NEW ACCOUNT' is clicked on
+
+13-02-2024T07:46:18 - [MESSAGE][PASSED] - Object: 'Object Repository/Record/Register/Page_Advantage Shopping/a_CREATE NEW ACCOUNT' is clicked on
+
+13-02-2024T07:46:18 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Record/Register/Page_Advantage Shopping/input__usernameRegisterPage"), username): Text 'intany' is set on object 'Object Repository/Record/Register/Page_Advantage Shopping/input__usernameRegisterPage'
+
+13-02-2024T07:46:22 - [MESSAGE][PASSED] - Text 'intany' is set on object 'Object Repository/Record/Register/Page_Advantage Shopping/input__usernameRegisterPage'
+
+13-02-2024T07:46:22 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Record/Register/Page_Advantage Shopping/input__emailRegisterPage"), email): Text 'intany@mail.com' is set on object 'Object Repository/Record/Register/Page_Advantage Shopping/input__emailRegisterPage'
+
+13-02-2024T07:46:23 - [MESSAGE][PASSED] - Text 'intany@mail.com' is set on object 'Object Repository/Record/Register/Page_Advantage Shopping/input__emailRegisterPage'
+
+13-02-2024T07:46:23 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Record/Register/Page_Advantage Shopping/input__passwordRegisterPage"), password): Text ****** has been set on object 'Object Repository/Record/Register/Page_Advantage Shopping/input__passwordRegisterPage'
+
+13-02-2024T07:46:24 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Record/Register/Page_Advantage Shopping/input__passwordRegisterPage'
+
+13-02-2024T07:46:24 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Record/Register/Page_Advantage Shopping/input__confirm_passwordRegisterPage"), password): Text ****** has been set on object 'Object Repository/Record/Register/Page_Advantage Shopping/input__confirm_passwordRegisterPage'
+
+13-02-2024T07:46:25 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Record/Register/Page_Advantage Shopping/input__confirm_passwordRegisterPage'
+
+13-02-2024T07:46:25 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Record/Register/Page_Advantage Shopping/input_PERSONAL DETAILS_first_nameRegisterPage"), firstName): Text 'Intan' is set on object 'Object Repository/Record/Register/Page_Advantage Shopping/input_PERSONAL DETAILS_first_nameRegisterPage'
+
+13-02-2024T07:46:26 - [MESSAGE][PASSED] - Text 'Intan' is set on object 'Object Repository/Record/Register/Page_Advantage Shopping/input_PERSONAL DETAILS_first_nameRegisterPage'
+
+13-02-2024T07:46:26 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Record/Register/Page_Advantage Shopping/input_- Use maximum 30 character_last_nameR_6ef033"), lastName): Text 'Yolanda' is set on object 'Object Repository/Record/Register/Page_Advantage Shopping/input_- Use maximum 30 character_last_nameR_6ef033'
+
+13-02-2024T07:46:28 - [MESSAGE][PASSED] - Text 'Yolanda' is set on object 'Object Repository/Record/Register/Page_Advantage Shopping/input_- Use maximum 30 character_last_nameR_6ef033'
+
+13-02-2024T07:46:28 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Record/Register/Page_Advantage Shopping/input_- Use maximum 30 character_phone_numb_7c938a"), phoneNumber): Text '089910153322' is set on object 'Object Repository/Record/Register/Page_Advantage Shopping/input_- Use maximum 30 character_phone_numb_7c938a'
+
+13-02-2024T07:46:29 - [MESSAGE][PASSED] - Text '089910153322' is set on object 'Object Repository/Record/Register/Page_Advantage Shopping/input_- Use maximum 30 character_phone_numb_7c938a'
+
+13-02-2024T07:46:29 - [TEST_STEP][PASSED] - selectOptionByLabel(findTestObject("Object Repository/Record/Register/Page_Advantage Shopping/select_AfganistanAlbaniaAlgeriaAmerican Sam_3cef8a"), country, true): All options with label 'Australia' are selected in object 'Object Repository/Record/Register/Page_Advantage Shopping/select_AfganistanAlbaniaAlgeriaAmerican Sam_3cef8a'  using regular expression
+
+13-02-2024T07:46:37 - [MESSAGE][PASSED] - All options with label 'Australia' are selected in object 'Object Repository/Record/Register/Page_Advantage Shopping/select_AfganistanAlbaniaAlgeriaAmerican Sam_3cef8a'  using regular expression
+
+13-02-2024T07:46:37 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Record/Register/Page_Advantage Shopping/input_Country_cityRegisterPage"), city): Text 'NSW' is set on object 'Object Repository/Record/Register/Page_Advantage Shopping/input_Country_cityRegisterPage'
+
+13-02-2024T07:46:38 - [MESSAGE][PASSED] - Text 'NSW' is set on object 'Object Repository/Record/Register/Page_Advantage Shopping/input_Country_cityRegisterPage'
+
+13-02-2024T07:46:38 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Record/Register/Page_Advantage Shopping/input_- Use maximum 25 character_addressReg_9e23b3"), address): Text 'Melbourne Ave' is set on object 'Object Repository/Record/Register/Page_Advantage Shopping/input_- Use maximum 25 character_addressReg_9e23b3'
+
+13-02-2024T07:46:39 - [MESSAGE][PASSED] - Text 'Melbourne Ave' is set on object 'Object Repository/Record/Register/Page_Advantage Shopping/input_- Use maximum 25 character_addressReg_9e23b3'
+
+13-02-2024T07:46:39 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Record/Register/Page_Advantage Shopping/input_- Use maximum 50 character_state__pro_272a54"), region): Text 'Melbourne' is set on object 'Object Repository/Record/Register/Page_Advantage Shopping/input_- Use maximum 50 character_state__pro_272a54'
+
+13-02-2024T07:46:40 - [MESSAGE][PASSED] - Text 'Melbourne' is set on object 'Object Repository/Record/Register/Page_Advantage Shopping/input_- Use maximum 50 character_state__pro_272a54'
+
+13-02-2024T07:46:40 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Record/Register/Page_Advantage Shopping/input_- Use maximum 10 character_postal_cod_639c2f"), postCode): Text '12345' is set on object 'Object Repository/Record/Register/Page_Advantage Shopping/input_- Use maximum 10 character_postal_cod_639c2f'
+
+13-02-2024T07:46:42 - [MESSAGE][PASSED] - Text '12345' is set on object 'Object Repository/Record/Register/Page_Advantage Shopping/input_- Use maximum 10 character_postal_cod_639c2f'
+
+13-02-2024T07:46:42 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Record/Register/Page_Advantage Shopping/input_Receive exclusive offers and promotio_5c7450")): Object: 'Object Repository/Record/Register/Page_Advantage Shopping/input_Receive exclusive offers and promotio_5c7450' is clicked on
+
+13-02-2024T07:46:43 - [MESSAGE][PASSED] - Object: 'Object Repository/Record/Register/Page_Advantage Shopping/input_Receive exclusive offers and promotio_5c7450' is clicked on
+
+13-02-2024T07:46:43 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Record/Register/Page_Advantage Shopping/button_REGISTER")): Object: 'Object Repository/Record/Register/Page_Advantage Shopping/button_REGISTER' is clicked on
+
+13-02-2024T07:46:44 - [MESSAGE][PASSED] - Object: 'Object Repository/Record/Register/Page_Advantage Shopping/button_REGISTER' is clicked on
+
+13-02-2024T07:46:44 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Object Repository/Record/Register/Page_Advantage Shopping/span_testname"), username): Actual text and expected text of test object 'Object Repository/Record/Register/Page_Advantage Shopping/span_testname' are matched.
+
+13-02-2024T07:47:15 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: '. Please recheck the objects properties to make sure the desired element is located. 
+
+13-02-2024T07:47:15 - [MESSAGE][WARNING] - [SELF-HEALING] Failed to find element with id 'Object Repository/Record/Register/Page_Advantage Shopping/span_testname'. Try using Self-healing.
+
+13-02-2024T07:47:15 - [MESSAGE][WARNING] - [SELF-HEALING] The current locator of test object 'Object Repository/Record/Register/Page_Advantage Shopping/span_testname' was broken. Propose an alternative one: '//a[@id='menuUserLink']/span'.
+
+13-02-2024T07:47:15 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Record/Register/Page_Advantage Shopping/span_testname' are matched.
+
+13-02-2024T07:47:15 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+13-02-2024T07:47:18 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+13-02-2024T07:47:18 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+13-02-2024T07:47:19 - [MESSAGE][PASSED] - Browser is closed
+
+13-02-2024T07:47:21 - [TEST_STEP][PASSED] - Video: Video recording for test case 'Test Cases/Register 01 - Sukses' .
+
+13-02-2024T07:47:21 - [MESSAGE][INFO] - Video recording for test case 'Test Cases/Register 01 - Sukses' .]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Register 01 - Sukses" time="79.016" classname="Test Cases/Register 01 - Sukses" status="PASSED">
+         <system-out><![CDATA[13-02-2024T07:47:21 - [TEST_CASE][PASSED] - Test Cases/Register 01 - Sukses: Test Cases/Register 01 - Sukses
+
+13-02-2024T07:47:22 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+13-02-2024T07:47:22 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+13-02-2024T07:47:22 - [MESSAGE][INFO] - User set preference: ['args', '[--start-maximized]']
+
+13-02-2024T07:47:22 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+13-02-2024T07:47:23 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+13-02-2024T07:47:23 - [TEST_STEP][PASSED] - navigateToUrl(url): Navigate to 'https://advantageonlineshopping.com/#/' successfully
+
+13-02-2024T07:47:25 - [MESSAGE][PASSED] - Navigate to 'https://advantageonlineshopping.com/#/' successfully
+
+13-02-2024T07:47:25 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Record/Register/Page_Advantage Shopping/svg_CHECKOUT  (0.00)_menuUser")): Object: 'Object Repository/Record/Register/Page_Advantage Shopping/svg_CHECKOUT  (0.00)_menuUser' is clicked on
+
+13-02-2024T07:47:27 - [MESSAGE][PASSED] - Object: 'Object Repository/Record/Register/Page_Advantage Shopping/svg_CHECKOUT  (0.00)_menuUser' is clicked on
+
+13-02-2024T07:47:27 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+13-02-2024T07:47:30 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+13-02-2024T07:47:30 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Record/Register/Page_Advantage Shopping/a_CREATE NEW ACCOUNT")): Object: 'Object Repository/Record/Register/Page_Advantage Shopping/a_CREATE NEW ACCOUNT' is clicked on
+
+13-02-2024T07:47:31 - [MESSAGE][PASSED] - Object: 'Object Repository/Record/Register/Page_Advantage Shopping/a_CREATE NEW ACCOUNT' is clicked on
+
+13-02-2024T07:47:31 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Record/Register/Page_Advantage Shopping/input__usernameRegisterPage"), username): Text 'emasgold' is set on object 'Object Repository/Record/Register/Page_Advantage Shopping/input__usernameRegisterPage'
+
+13-02-2024T07:47:38 - [MESSAGE][PASSED] - Text 'emasgold' is set on object 'Object Repository/Record/Register/Page_Advantage Shopping/input__usernameRegisterPage'
+
+13-02-2024T07:47:38 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Record/Register/Page_Advantage Shopping/input__emailRegisterPage"), email): Text 'emasgold@mail.com' is set on object 'Object Repository/Record/Register/Page_Advantage Shopping/input__emailRegisterPage'
+
+13-02-2024T07:47:39 - [MESSAGE][PASSED] - Text 'emasgold@mail.com' is set on object 'Object Repository/Record/Register/Page_Advantage Shopping/input__emailRegisterPage'
+
+13-02-2024T07:47:39 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Record/Register/Page_Advantage Shopping/input__passwordRegisterPage"), password): Text ****** has been set on object 'Object Repository/Record/Register/Page_Advantage Shopping/input__passwordRegisterPage'
+
+13-02-2024T07:47:40 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Record/Register/Page_Advantage Shopping/input__passwordRegisterPage'
+
+13-02-2024T07:47:40 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Record/Register/Page_Advantage Shopping/input__confirm_passwordRegisterPage"), password): Text ****** has been set on object 'Object Repository/Record/Register/Page_Advantage Shopping/input__confirm_passwordRegisterPage'
+
+13-02-2024T07:47:42 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Record/Register/Page_Advantage Shopping/input__confirm_passwordRegisterPage'
+
+13-02-2024T07:47:42 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Record/Register/Page_Advantage Shopping/input_PERSONAL DETAILS_first_nameRegisterPage"), firstName): Text 'Emas' is set on object 'Object Repository/Record/Register/Page_Advantage Shopping/input_PERSONAL DETAILS_first_nameRegisterPage'
+
+13-02-2024T07:47:44 - [MESSAGE][PASSED] - Text 'Emas' is set on object 'Object Repository/Record/Register/Page_Advantage Shopping/input_PERSONAL DETAILS_first_nameRegisterPage'
+
+13-02-2024T07:47:44 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Record/Register/Page_Advantage Shopping/input_- Use maximum 30 character_last_nameR_6ef033"), lastName): Text 'Permadi' is set on object 'Object Repository/Record/Register/Page_Advantage Shopping/input_- Use maximum 30 character_last_nameR_6ef033'
+
+13-02-2024T07:47:45 - [MESSAGE][PASSED] - Text 'Permadi' is set on object 'Object Repository/Record/Register/Page_Advantage Shopping/input_- Use maximum 30 character_last_nameR_6ef033'
+
+13-02-2024T07:47:45 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Record/Register/Page_Advantage Shopping/input_- Use maximum 30 character_phone_numb_7c938a"), phoneNumber): Text '081234567890' is set on object 'Object Repository/Record/Register/Page_Advantage Shopping/input_- Use maximum 30 character_phone_numb_7c938a'
+
+13-02-2024T07:47:46 - [MESSAGE][PASSED] - Text '081234567890' is set on object 'Object Repository/Record/Register/Page_Advantage Shopping/input_- Use maximum 30 character_phone_numb_7c938a'
+
+13-02-2024T07:47:46 - [TEST_STEP][PASSED] - selectOptionByLabel(findTestObject("Object Repository/Record/Register/Page_Advantage Shopping/select_AfganistanAlbaniaAlgeriaAmerican Sam_3cef8a"), country, true): All options with label 'Singapore' are selected in object 'Object Repository/Record/Register/Page_Advantage Shopping/select_AfganistanAlbaniaAlgeriaAmerican Sam_3cef8a'  using regular expression
+
+13-02-2024T07:47:57 - [MESSAGE][PASSED] - All options with label 'Singapore' are selected in object 'Object Repository/Record/Register/Page_Advantage Shopping/select_AfganistanAlbaniaAlgeriaAmerican Sam_3cef8a'  using regular expression
+
+13-02-2024T07:47:57 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Record/Register/Page_Advantage Shopping/input_Country_cityRegisterPage"), city): Text 'Singapore City' is set on object 'Object Repository/Record/Register/Page_Advantage Shopping/input_Country_cityRegisterPage'
+
+13-02-2024T07:47:58 - [MESSAGE][PASSED] - Text 'Singapore City' is set on object 'Object Repository/Record/Register/Page_Advantage Shopping/input_Country_cityRegisterPage'
+
+13-02-2024T07:47:58 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Record/Register/Page_Advantage Shopping/input_- Use maximum 25 character_addressReg_9e23b3"), address): Text 'Orchard Road' is set on object 'Object Repository/Record/Register/Page_Advantage Shopping/input_- Use maximum 25 character_addressReg_9e23b3'
+
+13-02-2024T07:47:59 - [MESSAGE][PASSED] - Text 'Orchard Road' is set on object 'Object Repository/Record/Register/Page_Advantage Shopping/input_- Use maximum 25 character_addressReg_9e23b3'
+
+13-02-2024T07:47:59 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Record/Register/Page_Advantage Shopping/input_- Use maximum 50 character_state__pro_272a54"), region): Text 'Singapore' is set on object 'Object Repository/Record/Register/Page_Advantage Shopping/input_- Use maximum 50 character_state__pro_272a54'
+
+13-02-2024T07:48:01 - [MESSAGE][PASSED] - Text 'Singapore' is set on object 'Object Repository/Record/Register/Page_Advantage Shopping/input_- Use maximum 50 character_state__pro_272a54'
+
+13-02-2024T07:48:01 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Record/Register/Page_Advantage Shopping/input_- Use maximum 10 character_postal_cod_639c2f"), postCode): Text '10239' is set on object 'Object Repository/Record/Register/Page_Advantage Shopping/input_- Use maximum 10 character_postal_cod_639c2f'
+
+13-02-2024T07:48:02 - [MESSAGE][PASSED] - Text '10239' is set on object 'Object Repository/Record/Register/Page_Advantage Shopping/input_- Use maximum 10 character_postal_cod_639c2f'
+
+13-02-2024T07:48:02 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Record/Register/Page_Advantage Shopping/input_Receive exclusive offers and promotio_5c7450")): Object: 'Object Repository/Record/Register/Page_Advantage Shopping/input_Receive exclusive offers and promotio_5c7450' is clicked on
+
+13-02-2024T07:48:02 - [MESSAGE][PASSED] - Object: 'Object Repository/Record/Register/Page_Advantage Shopping/input_Receive exclusive offers and promotio_5c7450' is clicked on
+
+13-02-2024T07:48:02 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Record/Register/Page_Advantage Shopping/button_REGISTER")): Object: 'Object Repository/Record/Register/Page_Advantage Shopping/button_REGISTER' is clicked on
+
+13-02-2024T07:48:03 - [MESSAGE][PASSED] - Object: 'Object Repository/Record/Register/Page_Advantage Shopping/button_REGISTER' is clicked on
+
+13-02-2024T07:48:03 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Object Repository/Record/Register/Page_Advantage Shopping/span_testname"), username): Actual text and expected text of test object 'Object Repository/Record/Register/Page_Advantage Shopping/span_testname' are matched.
+
+13-02-2024T07:48:34 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: '. Please recheck the objects properties to make sure the desired element is located. 
+
+13-02-2024T07:48:34 - [MESSAGE][WARNING] - [SELF-HEALING] Failed to find element with id 'Object Repository/Record/Register/Page_Advantage Shopping/span_testname'. Try using Self-healing.
+
+13-02-2024T07:48:35 - [MESSAGE][WARNING] - [SELF-HEALING] The current locator of test object 'Object Repository/Record/Register/Page_Advantage Shopping/span_testname' was broken. Propose an alternative one: '//a[@id='menuUserLink']/span'.
+
+13-02-2024T07:48:35 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Record/Register/Page_Advantage Shopping/span_testname' are matched.
+
+13-02-2024T07:48:35 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+13-02-2024T07:48:38 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+13-02-2024T07:48:38 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+13-02-2024T07:48:38 - [MESSAGE][PASSED] - Browser is closed
+
+13-02-2024T07:48:40 - [TEST_STEP][PASSED] - Video: Video recording for test case 'Test Cases/Register 01 - Sukses' .
+
+13-02-2024T07:48:40 - [MESSAGE][INFO] - Video recording for test case 'Test Cases/Register 01 - Sukses' .]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Register 02 - Tidak Sesuai Kondisi" time="27.661" classname="Test Cases/Register 02 - Tidak Sesuai Kondisi" status="PASSED">
+         <system-out><![CDATA[13-02-2024T07:48:40 - [TEST_CASE][PASSED] - Test Cases/Register 02 - Tidak Sesuai Kondisi: Test Cases/Register 02 - Tidak Sesuai Kondisi
+
+13-02-2024T07:48:41 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+13-02-2024T07:48:41 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+13-02-2024T07:48:41 - [MESSAGE][INFO] - User set preference: ['args', '[--start-maximized]']
+
+13-02-2024T07:48:41 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+13-02-2024T07:48:42 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+13-02-2024T07:48:42 - [TEST_STEP][PASSED] - navigateToUrl("https://advantageonlineshopping.com/#/"): Navigate to 'https://advantageonlineshopping.com/#/' successfully
+
+13-02-2024T07:48:44 - [MESSAGE][PASSED] - Navigate to 'https://advantageonlineshopping.com/#/' successfully
+
+13-02-2024T07:48:44 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Record/Register/Page_Advantage Shopping/svg_CHECKOUT  (0.00)_menuUser")): Object: 'Object Repository/Record/Register/Page_Advantage Shopping/svg_CHECKOUT  (0.00)_menuUser' is clicked on
+
+13-02-2024T07:48:51 - [MESSAGE][PASSED] - Object: 'Object Repository/Record/Register/Page_Advantage Shopping/svg_CHECKOUT  (0.00)_menuUser' is clicked on
+
+13-02-2024T07:48:51 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+13-02-2024T07:48:54 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+13-02-2024T07:48:54 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Record/Register/Page_Advantage Shopping/a_CREATE NEW ACCOUNT")): Object: 'Object Repository/Record/Register/Page_Advantage Shopping/a_CREATE NEW ACCOUNT' is clicked on
+
+13-02-2024T07:48:55 - [MESSAGE][PASSED] - Object: 'Object Repository/Record/Register/Page_Advantage Shopping/a_CREATE NEW ACCOUNT' is clicked on
+
+13-02-2024T07:48:55 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Record/Register/Page_Advantage Shopping/input__usernameRegisterPage"), "test"): Text 'test' is set on object 'Object Repository/Record/Register/Page_Advantage Shopping/input__usernameRegisterPage'
+
+13-02-2024T07:48:58 - [MESSAGE][PASSED] - Text 'test' is set on object 'Object Repository/Record/Register/Page_Advantage Shopping/input__usernameRegisterPage'
+
+13-02-2024T07:48:58 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Record/Register/Page_Advantage Shopping/input__emailRegisterPage"), "mail.com"): Text 'mail.com' is set on object 'Object Repository/Record/Register/Page_Advantage Shopping/input__emailRegisterPage'
+
+13-02-2024T07:48:59 - [MESSAGE][PASSED] - Text 'mail.com' is set on object 'Object Repository/Record/Register/Page_Advantage Shopping/input__emailRegisterPage'
+
+13-02-2024T07:48:59 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Record/Register/Page_Advantage Shopping/input__passwordRegisterPage"), "NOZHw6sL/1I="): Text ****** has been set on object 'Object Repository/Record/Register/Page_Advantage Shopping/input__passwordRegisterPage'
+
+13-02-2024T07:49:00 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Record/Register/Page_Advantage Shopping/input__passwordRegisterPage'
+
+13-02-2024T07:49:00 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Record/Register/Page_Advantage Shopping/input__confirm_passwordRegisterPage"), "NmLWqEVKCcs="): Text ****** has been set on object 'Object Repository/Record/Register/Page_Advantage Shopping/input__confirm_passwordRegisterPage'
+
+13-02-2024T07:49:01 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Record/Register/Page_Advantage Shopping/input__confirm_passwordRegisterPage'
+
+13-02-2024T07:49:01 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Record/Register/Page_Advantage Shopping/div_ACCOUNT DETAILS                        _b895da")): Object: 'Object Repository/Record/Register/Page_Advantage Shopping/div_ACCOUNT DETAILS                        _b895da' is clicked on
+
+13-02-2024T07:49:02 - [MESSAGE][PASSED] - Object: 'Object Repository/Record/Register/Page_Advantage Shopping/div_ACCOUNT DETAILS                        _b895da' is clicked on
+
+13-02-2024T07:49:02 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Record/Register/Page_Advantage Shopping/input_Receive exclusive offers and promotio_5c7450")): Object: 'Object Repository/Record/Register/Page_Advantage Shopping/input_Receive exclusive offers and promotio_5c7450' is clicked on
+
+13-02-2024T07:49:03 - [MESSAGE][PASSED] - Object: 'Object Repository/Record/Register/Page_Advantage Shopping/input_Receive exclusive offers and promotio_5c7450' is clicked on
+
+13-02-2024T07:49:03 - [TEST_STEP][PASSED] - verifyTextPresent("Use 5 character or longer", false): Text 'Use 5 character or longer' is present on page 
+
+13-02-2024T07:49:03 - [MESSAGE][PASSED] - Text 'Use 5 character or longer' is present on page 
+
+13-02-2024T07:49:03 - [TEST_STEP][PASSED] - verifyTextPresent("Your email address isn't formatted correctly", false): Text 'Your email address isn't formatted correctly' is present on page 
+
+13-02-2024T07:49:04 - [MESSAGE][PASSED] - Text 'Your email address isn't formatted correctly' is present on page 
+
+13-02-2024T07:49:04 - [TEST_STEP][PASSED] - verifyTextPresent("One upper letter required", false): Text 'One upper letter required' is present on page 
+
+13-02-2024T07:49:04 - [MESSAGE][PASSED] - Text 'One upper letter required' is present on page 
+
+13-02-2024T07:49:04 - [TEST_STEP][PASSED] - verifyTextPresent("Passwords do not match", false): Text 'Passwords do not match' is present on page 
+
+13-02-2024T07:49:05 - [MESSAGE][PASSED] - Text 'Passwords do not match' is present on page 
+
+13-02-2024T07:49:05 - [TEST_STEP][PASSED] - verifyElementNotClickable(findTestObject("Object Repository/Record/Register/Page_Advantage Shopping/button_REGISTER")): Object 'Object Repository/Record/Register/Page_Advantage Shopping/button_REGISTER' is NOT clickable
+
+13-02-2024T07:49:05 - [MESSAGE][PASSED] - Object 'Object Repository/Record/Register/Page_Advantage Shopping/button_REGISTER' is NOT clickable
+
+13-02-2024T07:49:05 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+13-02-2024T07:49:06 - [MESSAGE][PASSED] - Browser is closed
+
+13-02-2024T07:49:08 - [TEST_STEP][PASSED] - Video: Video recording for test case 'Test Cases/Register 02 - Tidak Sesuai Kondisi' .
+
+13-02-2024T07:49:08 - [MESSAGE][INFO] - Video recording for test case 'Test Cases/Register 02 - Tidak Sesuai Kondisi' .]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Register 03 - Sudah Ada User" time="27.73" classname="Test Cases/Register 03 - Sudah Ada User" status="PASSED">
+         <system-out><![CDATA[13-02-2024T07:49:08 - [TEST_CASE][PASSED] - Test Cases/Register 03 - Sudah Ada User: Test Cases/Register 03 - Sudah Ada User
+
+13-02-2024T07:49:08 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+13-02-2024T07:49:08 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+13-02-2024T07:49:08 - [MESSAGE][INFO] - User set preference: ['args', '[--start-maximized]']
+
+13-02-2024T07:49:08 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+13-02-2024T07:49:09 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+13-02-2024T07:49:09 - [TEST_STEP][PASSED] - navigateToUrl("https://advantageonlineshopping.com/#/"): Navigate to 'https://advantageonlineshopping.com/#/' successfully
+
+13-02-2024T07:49:12 - [MESSAGE][PASSED] - Navigate to 'https://advantageonlineshopping.com/#/' successfully
+
+13-02-2024T07:49:12 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Record/Register/Page_Advantage Shopping/svg_CHECKOUT  (0.00)_menuUser")): Object: 'Object Repository/Record/Register/Page_Advantage Shopping/svg_CHECKOUT  (0.00)_menuUser' is clicked on
+
+13-02-2024T07:49:18 - [MESSAGE][PASSED] - Object: 'Object Repository/Record/Register/Page_Advantage Shopping/svg_CHECKOUT  (0.00)_menuUser' is clicked on
+
+13-02-2024T07:49:18 - [TEST_STEP][PASSED] - delay(4): Delayed 4 second(s)
+
+13-02-2024T07:49:22 - [MESSAGE][PASSED] - Delayed 4 second(s)
+
+13-02-2024T07:49:22 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Record/Register/Page_Advantage Shopping/a_CREATE NEW ACCOUNT")): Object: 'Object Repository/Record/Register/Page_Advantage Shopping/a_CREATE NEW ACCOUNT' is clicked on
+
+13-02-2024T07:49:23 - [MESSAGE][PASSED] - Object: 'Object Repository/Record/Register/Page_Advantage Shopping/a_CREATE NEW ACCOUNT' is clicked on
+
+13-02-2024T07:49:23 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Record/Register/Page_Advantage Shopping/input__usernameRegisterPage"), username): Text 'testname' is set on object 'Object Repository/Record/Register/Page_Advantage Shopping/input__usernameRegisterPage'
+
+13-02-2024T07:49:24 - [MESSAGE][PASSED] - Text 'testname' is set on object 'Object Repository/Record/Register/Page_Advantage Shopping/input__usernameRegisterPage'
+
+13-02-2024T07:49:24 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Record/Register/Page_Advantage Shopping/input__emailRegisterPage"), email): Text 'test@mail.com' is set on object 'Object Repository/Record/Register/Page_Advantage Shopping/input__emailRegisterPage'
+
+13-02-2024T07:49:26 - [MESSAGE][PASSED] - Text 'test@mail.com' is set on object 'Object Repository/Record/Register/Page_Advantage Shopping/input__emailRegisterPage'
+
+13-02-2024T07:49:26 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Record/Register/Page_Advantage Shopping/input__passwordRegisterPage"), password): Text ****** has been set on object 'Object Repository/Record/Register/Page_Advantage Shopping/input__passwordRegisterPage'
+
+13-02-2024T07:49:27 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Record/Register/Page_Advantage Shopping/input__passwordRegisterPage'
+
+13-02-2024T07:49:27 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Record/Register/Page_Advantage Shopping/input__confirm_passwordRegisterPage"), password): Text ****** has been set on object 'Object Repository/Record/Register/Page_Advantage Shopping/input__confirm_passwordRegisterPage'
+
+13-02-2024T07:49:27 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Record/Register/Page_Advantage Shopping/input__confirm_passwordRegisterPage'
+
+13-02-2024T07:49:27 - [TEST_STEP][PASSED] - click(findTestObject("Spy/Register/Page_Advantage Shopping/tocCheckbox")): Object: 'Object Repository/Spy/Register/Page_Advantage Shopping/tocCheckbox' is clicked on
+
+13-02-2024T07:49:28 - [MESSAGE][PASSED] - Object: 'Object Repository/Spy/Register/Page_Advantage Shopping/tocCheckbox' is clicked on
+
+13-02-2024T07:49:28 - [TEST_STEP][PASSED] - click(findTestObject("Spy/Register/Page_Advantage Shopping/registerButton")): Object: 'Object Repository/Spy/Register/Page_Advantage Shopping/registerButton' is clicked on
+
+13-02-2024T07:49:28 - [MESSAGE][PASSED] - Object: 'Object Repository/Spy/Register/Page_Advantage Shopping/registerButton' is clicked on
+
+13-02-2024T07:49:28 - [TEST_STEP][PASSED] - delay(4): Delayed 4 second(s)
+
+13-02-2024T07:49:33 - [MESSAGE][PASSED] - Delayed 4 second(s)
+
+13-02-2024T07:49:33 - [TEST_STEP][PASSED] - verifyTextPresent("User name already exists", false): Text 'User name already exists' is present on page 
+
+13-02-2024T07:49:33 - [MESSAGE][PASSED] - Text 'User name already exists' is present on page 
+
+13-02-2024T07:49:33 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+13-02-2024T07:49:34 - [MESSAGE][PASSED] - Browser is closed
+
+13-02-2024T07:49:36 - [TEST_STEP][PASSED] - Video: Video recording for test case 'Test Cases/Register 03 - Sudah Ada User' .
+
+13-02-2024T07:49:36 - [MESSAGE][INFO] - Video recording for test case 'Test Cases/Register 03 - Sudah Ada User' .]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[13-02-2024T07:44:42 - [TEST_SUITE][PASSED] - Register: Test Cases/Register 03 - Sudah Ada User]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

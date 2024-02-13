@@ -1,0 +1,44 @@
+1
+00:00:00,008 --> 00:00:00,053
+1. randomNumber = customKeywords.randomGenerator.generateRandomNumber()
+
+2
+00:00:00,055 --> 00:00:00,076
+5. println(randomNumber)
+
+3
+00:00:00,080 --> 00:00:01,038
+9. openBrowser("")
+
+4
+00:00:01,040 --> 00:00:02,958
+13. navigateToUrl("https://advantageonlineshopping.com/#/")
+
+5
+00:00:02,975 --> 00:00:11,670
+17. click(findTestObject("Spy/Homepage/Page_Advantage Shopping/searchIcon"))
+
+6
+00:00:11,670 --> 00:00:11,676
+21. switch (randomNumber)
+
+7
+00:00:11,677 --> 00:00:13,263
+2. setText(findTestObject("Object Repository/Record/Search Item/Page_Advantage Shopping/input_Sign out_autoComplete"), "Beats")
+
+8
+00:00:13,265 --> 00:00:23,185
+6. sendKeys(findTestObject("Object Repository/Record/Search Item/Page_Advantage Shopping/input_Sign out_autoComplete"), Keys.chord(ENTER))
+
+9
+00:00:23,188 --> 00:00:24,154
+10. verifyTextPresent("Beats Studio 2 Over-Ear Matte Black Headphones", false)
+
+10
+00:00:24,155 --> 00:00:24,160
+14. break
+
+11
+00:00:24,161 --> 00:00:24,704
+25. closeBrowser()
+

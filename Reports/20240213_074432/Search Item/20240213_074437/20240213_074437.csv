@@ -1,0 +1,42 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Search Item,Chrome 121.0.0.0,,,13-02-2024 07:52:44,13-02-2024 07:54:56,2m - 12.311s,PASSED
+,,,,,,,
+Test Cases/Search Item 01 - Item Found,Chrome 121.0.0.0,,,13-02-2024 07:52:44,13-02-2024 07:53:24,40.342s,PASSED
+randomNumber = customKeywords.randomGenerator.generateRandomNumber(),Chrome 121.0.0.0,,,13-02-2024 07:52:44,13-02-2024 07:52:45,0.115s,PASSED
+println(randomNumber),Chrome 121.0.0.0,,,13-02-2024 07:52:45,13-02-2024 07:52:45,0.011s,PASSED
+"openBrowser("""")",Chrome 121.0.0.0,,,13-02-2024 07:52:45,13-02-2024 07:52:46,1.864s,PASSED
+"navigateToUrl(""https://advantageonlineshopping.com/#/"")",Chrome 121.0.0.0,,,13-02-2024 07:52:46,13-02-2024 07:52:48,1.864s,PASSED
+"click(findTestObject(""Spy/Homepage/Page_Advantage Shopping/searchIcon""))",Chrome 121.0.0.0,,,13-02-2024 07:52:48,13-02-2024 07:52:50,1.906s,PASSED
+switch (randomNumber),Chrome 121.0.0.0,,,13-02-2024 07:52:50,13-02-2024 07:53:22,31.643s,PASSED
+closeBrowser(),Chrome 121.0.0.0,,,13-02-2024 07:53:22,13-02-2024 07:53:22,0.341s,PASSED
+Video,Chrome 121.0.0.0,,,13-02-2024 07:53:24,13-02-2024 07:53:24,0.002s,PASSED
+,,,,,,,
+Test Cases/Search Item 01 - Item Found,Chrome 121.0.0.0,,,13-02-2024 07:53:24,13-02-2024 07:53:51,26.931s,PASSED
+randomNumber = customKeywords.randomGenerator.generateRandomNumber(),Chrome 121.0.0.0,,,13-02-2024 07:53:24,13-02-2024 07:53:24,0.045s,PASSED
+println(randomNumber),Chrome 121.0.0.0,,,13-02-2024 07:53:24,13-02-2024 07:53:25,0.020s,PASSED
+"openBrowser("""")",Chrome 121.0.0.0,,,13-02-2024 07:53:25,13-02-2024 07:53:25,0.957s,PASSED
+"navigateToUrl(""https://advantageonlineshopping.com/#/"")",Chrome 121.0.0.0,,,13-02-2024 07:53:25,13-02-2024 07:53:27,1.935s,PASSED
+"click(findTestObject(""Spy/Homepage/Page_Advantage Shopping/searchIcon""))",Chrome 121.0.0.0,,,13-02-2024 07:53:27,13-02-2024 07:53:36,8.695s,PASSED
+switch (randomNumber),Chrome 121.0.0.0,,,13-02-2024 07:53:36,13-02-2024 07:53:49,12.491s,PASSED
+closeBrowser(),Chrome 121.0.0.0,,,13-02-2024 07:53:49,13-02-2024 07:53:49,0.539s,PASSED
+Video,Chrome 121.0.0.0,,,13-02-2024 07:53:51,13-02-2024 07:53:51,0.002s,PASSED
+,,,,,,,
+Test Cases/Search Item 01 - Item Found,Chrome 121.0.0.0,,,13-02-2024 07:53:51,13-02-2024 07:54:25,34.191s,PASSED
+randomNumber = customKeywords.randomGenerator.generateRandomNumber(),Chrome 121.0.0.0,,,13-02-2024 07:53:51,13-02-2024 07:53:51,0.011s,PASSED
+println(randomNumber),Chrome 121.0.0.0,,,13-02-2024 07:53:51,13-02-2024 07:53:51,0.002s,PASSED
+"openBrowser("""")",Chrome 121.0.0.0,,,13-02-2024 07:53:51,13-02-2024 07:53:52,1.176s,PASSED
+"navigateToUrl(""https://advantageonlineshopping.com/#/"")",Chrome 121.0.0.0,,,13-02-2024 07:53:52,13-02-2024 07:53:56,3.506s,PASSED
+"click(findTestObject(""Spy/Homepage/Page_Advantage Shopping/searchIcon""))",Chrome 121.0.0.0,,,13-02-2024 07:53:56,13-02-2024 07:54:02,6.166s,PASSED
+switch (randomNumber),Chrome 121.0.0.0,,,13-02-2024 07:54:02,13-02-2024 07:54:23,20.819s,PASSED
+closeBrowser(),Chrome 121.0.0.0,,,13-02-2024 07:54:23,13-02-2024 07:54:23,0.407s,PASSED
+Video,Chrome 121.0.0.0,,,13-02-2024 07:54:25,13-02-2024 07:54:25,0.002s,PASSED
+,,,,,,,
+Test Cases/Search Item 02 - Item Not Found,Chrome 121.0.0.0,,,13-02-2024 07:54:25,13-02-2024 07:54:56,30.648s,PASSED
+"openBrowser("""")",Chrome 121.0.0.0,,,13-02-2024 07:54:26,13-02-2024 07:54:27,0.878s,PASSED
+"navigateToUrl(""https://advantageonlineshopping.com/#/"")",Chrome 121.0.0.0,,,13-02-2024 07:54:27,13-02-2024 07:54:28,1.150s,PASSED
+"click(findTestObject(""Spy/Homepage/Page_Advantage Shopping/searchIcon""))",Chrome 121.0.0.0,,,13-02-2024 07:54:28,13-02-2024 07:54:37,9.109s,PASSED
+"setText(findTestObject(""Object Repository/Record/Search Item/Page_Advantage Shopping/input_Sign out_autoComplete""), ""Motorolla"")",Chrome 121.0.0.0,,,13-02-2024 07:54:37,13-02-2024 07:54:38,1.235s,PASSED
+"sendKeys(findTestObject(""Object Repository/Record/Search Item/Page_Advantage Shopping/input_Sign out_autoComplete""), Keys.chord(ENTER))",Chrome 121.0.0.0,,,13-02-2024 07:54:38,13-02-2024 07:54:53,14.636s,PASSED
+"verifyTextPresent(""No results for ""Motorolla"""", false)",Chrome 121.0.0.0,,,13-02-2024 07:54:53,13-02-2024 07:54:54,0.847s,PASSED
+closeBrowser(),Chrome 121.0.0.0,,,13-02-2024 07:54:54,13-02-2024 07:54:54,0.401s,PASSED
+Video,Chrome 121.0.0.0,,,13-02-2024 07:54:56,13-02-2024 07:54:56,0.001s,PASSED

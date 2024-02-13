@@ -1,0 +1,14 @@
+{
+  "brokenTestObjects": [
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Record/Login/Page_Advantage Shopping/button_SIGN IN",
+      "brokenLocator": "",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//button[@id\u003d\u0027sign_in_btn\u0027]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/20240213_074432/Login/20240213_074435/Object Repository/Record/Login/Page_Advantage Shopping/button_SIGN IN_attributes.png"
+    }
+  ]
+}

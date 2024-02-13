@@ -1,0 +1,14 @@
+{
+  "brokenTestObjects": [
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Record/Register/Page_Advantage Shopping/span_testname",
+      "brokenLocator": "",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//a[@id\u003d\u0027menuUserLink\u0027]/span",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/20240213_074432/Register/20240213_074433/Object Repository/Record/Register/Page_Advantage Shopping/span_testname_idRelative.png"
+    }
+  ]
+}
